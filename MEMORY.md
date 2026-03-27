@@ -16,7 +16,7 @@
 - Matt is a busy professional and a dad of three kids under six.
 - Matt can realistically put in about 1 hour/day, roughly 7–10 hours/week.
 - Top priorities right now: hobby/creative outlet; becoming a better father/husband.
-- Broader goals for Jarvis/OpenClaw: build foundational AI/tech skills; explore side-income opportunities with comparatively low effort.
+- Broader goals for Jarvis/OpenClaw: build foundational AI/tech skills; innovate and increase productivity (monetization secondary, not primary obsession).
 - Matt wants help reducing mental load, especially remembering things and avoiding dropped balls.
 - AI/tech skill interests: setting up this system, using Linux, and staying current on AI trends/capabilities.
 - 3-month win: a well-oiled Jarvis/OpenClaw setup plus some real income signal, even if modest.
@@ -50,7 +50,17 @@
 
 ## Active Projects & Status
 
-### WineNight (B2B Winery SaaS) — ACTIVE PIVOT
+### StrengthInsight — MONITORING ONLY
+- Monitor occasionally for WHOOP API fixes
+- No effort on monetization currently
+- Health brief automation remains active
+
+### SetlistArt — OCCASIONAL CHECK-IN
+- Monitor SEO changes from branch 003-seo-optimizations
+- Check back in ~1 week for search ranking movement
+- No active development
+
+### WineNight (B2B Winery SaaS) — ACTIVE (WHEN CAPACITY)
 - **Model shift (Mar 22):** Moved from personal subscription to winery B2B focus
 - **Personal tier:** Free (up to 4 tasters + ads) or $9.99 one-time (unlimited, no ads)
 - **Winery tier (core):** $99/mo Pro (unlimited tastings, staff dashboard, email capture, real-time analytics, branded results)
@@ -59,12 +69,11 @@
 - **MVP scope:** Winery staff login, dashboard, QR generation, real-time tasting view, email capture, branded results = 35-40 hours, 1-1.5 weeks
 - **Repository:** https://github.com/Mhann37/WineNightv2 (in active development as of Mar 22 evening)
 - **Year 1 projection:** 75-100 winery customers @ $99/mo = $90k-120k ARR
+- **Development pace:** When capacity allows; build only when energy is right
 
-### SetlistArt (Concert Setlist Art Generator) — MAINTENANCE MODE
-- **Traffic issue:** SEO-dependent, only ranking for brand query ("setlist art"), not intent queries
-- **Latest fix (Mar 21):** Branch 003-seo-optimizations deployed (schema.json, OG tags, breadcrumbs, SEO image component)
-- **Monitor:** Search Console for CTR improvement on "concert poster"/"setlist poster" queries
-- **Backlog:** Expand curated top-artist list beyond ~200 to improve matching coverage
+### ~~JoelCaine Sports Analytics~~ — REMOVED
+- Decision: No longer pursuing sports betting analysis
+- Removed from codebase and GitHub (2026-03-27)
 
 ### Fraud Playbook Product (Real Estate SaaS) — PAUSED
 - **Model:** $299 USD PDF playbook + editable templates + lead-magnet assessment app
