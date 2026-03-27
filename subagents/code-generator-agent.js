@@ -55,25 +55,35 @@ class CodeGeneratorAgent {
       const prompt = this.buildPrompt();
       
       // Call Ollama API directly
-      const cmd = `curl -s -X POST http://localhost:11434/api/generate \\
-        -d '{
-          "model": "orca-mini",
-          "prompt": "${prompt.replace(/"/g, '\\"')}",
-          "stream": false
-        }'`;
+      const jsonPayload = JSON.stringify({
+        model: 'orca-mini:latest',
+        prompt: prompt,
+        stream: false
+      });
+      const cmd = `curl -s -X POST http://localhost:11434/api/generate -H "Content-Type: application/json" -d '${jsonPayload.replace(/'/g, "'\\''")}'`;
       
       this.log(`[OLLAMA] Prompt: ${prompt.substring(0, 100)}...`);
       
-      const { stdout } = await execAsync(cmd, { timeout: 60000 });
-      const response = JSON.parse(stdout);
+      const { stdout, stderr } = await execAsync(cmd, { timeout: 120000, maxBuffer: 10 * 1024 * 1024 });
       
-      if (!response.response) {
-        throw new Error('No response from Ollama');
+      if (!stdout) {
+        throw new Error(`Ollama returned empty response. stderr: ${stderr}`);
       }
       
-      this.log(`[OLLAMA] ✓ Generated ${response.response.length} characters`);
+      const response = JSON.parse(stdout);
       
-      return response.response;
+      if (response.error) {
+        throw new Error(`Ollama error: ${response.error}`);
+      }
+      
+      if (!response.response) {
+        throw new Error('No response field in Ollama output');
+      }
+      
+      const generatedText = response.response.trim();
+      this.log(`[OLLAMA] ✓ Generated ${generatedText.length} characters`);
+      
+      return generatedText;
     } catch (e) {
       this.log(`[OLLAMA] ✗ Error: ${e.message}`);
       throw e;
