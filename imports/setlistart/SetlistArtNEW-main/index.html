@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="p:domain_verify" content="a26c873c16d9adbc9a630eea1987f374"/>
+  <title>SetlistArt — Free Concert Setlist Poster Maker</title>
+
+  <!-- Primary SEO -->
+  <meta name="description" content="Create a personalised concert setlist poster for free. Search setlist.fm, preview your design live, and download print-ready artwork. No account needed." />
+  <meta name="author" content="SetlistArt" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://setlistart.ink" />
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="SetlistArt — Free Concert Setlist Poster Maker" />
+  <meta property="og:description" content="Create a personalised concert setlist poster for free. Search setlist.fm, preview your design live, and download print-ready artwork. No account needed." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://setlistart.ink" />
+  <meta property="og:image" content="https://setlistart.ink/og-image.jpg" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="SetlistArt — Free Concert Setlist Poster Maker" />
+  <meta name="twitter:description" content="Create a personalised concert setlist poster for free. Search setlist.fm, preview your design live, and download print-ready artwork. No account needed." />
+  <meta name="twitter:image" content="https://setlistart.ink/og-image.jpg" />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JJF01ZLFJK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-JJF01ZLFJK');
+  </script>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Oswald:wght@400;700&family=Playfair+Display:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind Config -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#fdf2f8',
+              100: '#fce7f3',
+              500: '#ec4899',
+              600: '#db2777',
+              900: '#831843',
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            oswald: ['Oswald', 'sans-serif'],
+            playfair: ['Playfair Display', 'serif'],
+            mono: ['Roboto Mono', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Hide scrollbar for clean UI but allow scroll */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "SetlistArt",
+    "url": "https://setlistart.ink",
+    "description": "Create a personalised concert setlist poster for free. Search setlist.fm, preview your design live, and download print-ready artwork. No account needed.",
+    "applicationCategory": "DesignApplication",
+    "operatingSystem": "Any",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "GBP",
+      "description": "Free to create and preview. Download print-ready artwork files."
+    },
+    "creator": {
+      "@type": "Organization",
+      "name": "SetlistArt",
+      "url": "https://setlistart.ink"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is this a physical print?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No—SetlistArt is digital download only. You'll receive print-ready files you can print anywhere."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I preview before ordering?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. You can build and preview your setlist poster on SetlistArt for free before purchasing."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What sizes are included in the setlist poster download?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every order includes four print-ready files at 300 DPI: A3 (297×420mm), A4 (210×297mm), 6×8 inch, and 11×14 inch."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where do I find the concert setlist?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can use the built-in setlist.fm integration to fetch real concert data, use your own notes, or enter the songs manually."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is the tool free to use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Creating and previewing your poster is completely free. You only pay if you choose to download the final high-resolution print files."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are you affiliated with any artists or venues?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. SetlistArt is an independent design product and is not affiliated with any artist, venue or event."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Import Map -->
+  <script type="importmap">
+  {
+    "imports": {
+      "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+      "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+      "react/": "https://esm.sh/react@^19.2.4/",
+      "react": "https://esm.sh/react@^19.2.4",
+      "jszip": "https://esm.sh/jszip@^3.10.1",
+      "@google/genai": "https://esm.sh/@google/genai@^1.40.0",
+      "@stripe/stripe-js": "https://esm.sh/@stripe/stripe-js@^5.6.0"
+    }
+  }
+  </script>
+
+</head>
+
+<body class="bg-slate-950 text-slate-50 antialiased min-h-screen w-full overflow-x-hidden selection:bg-brand-500 selection:text-white">
+  <div id="root" class="h-full w-full"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

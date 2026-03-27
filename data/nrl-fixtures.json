@@ -1,0 +1,10 @@
+{
+  "round": 4,
+  "season": 2026,
+  "fixtures": [
+    {"home": "Sea Eagles", "away": "Roosters", "odds": {"home": 2.60, "away": 1.50, "spread": -6.5}},
+    {"home": "Panthers", "away": "Broncos", "odds": {"home": 1.80, "away": 2.00, "spread": 3.0}},
+    {"home": "Storm", "away": "Raiders", "odds": {"home": 1.65, "away": 2.30, "spread": 8.0}},
+    {"home": "Sharks", "away": "Bulldogs", "odds": {"home": 2.10, "away": 1.74, "spread": -1.0}}
+  ]
+}

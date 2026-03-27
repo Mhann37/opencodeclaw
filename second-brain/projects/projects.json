@@ -1,0 +1,42 @@
+[
+  {
+    "id": "mission-control-ui",
+    "title": "Mission Control UI",
+    "status": "in-progress",
+    "priority": "high",
+    "summary": "Minimal dark dashboard for multi-device visibility on top of the Pi-hosted OpenClaw setup.",
+    "nextAction": "Refine project/task visibility and keep live operational panels useful.",
+    "updatedAt": "2026-03-16T09:50:00+11:00",
+    "notesPath": "second-brain/projects/mission-control-ui.md"
+  },
+  {
+    "id": "setlistart-growth-research",
+    "title": "SetlistArt growth research",
+    "status": "backlog",
+    "priority": "high",
+    "summary": "Review Google search landscape, potential product/site changes, and practical marketing strategy.",
+    "nextAction": "Scope the research plan and identify the highest-leverage SEO and distribution opportunities.",
+    "updatedAt": "2026-03-16T07:00:00+11:00",
+    "notesPath": "second-brain/projects/setlistart-growth-research.md"
+  },
+  {
+    "id": "gateway-pi-stability",
+    "title": "Gateway / Pi stability review",
+    "status": "in-progress",
+    "priority": "medium",
+    "summary": "Tighten operational visibility around sessions, channel health, and node/connectivity status.",
+    "nextAction": "Watch dashboard performance and add only lean operational improvements.",
+    "updatedAt": "2026-03-16T09:10:00+11:00",
+    "notesPath": "second-brain/projects/gateway-pi-stability.md"
+  },
+  {
+    "id": "second-brain-foundation",
+    "title": "Second brain foundation",
+    "status": "in-progress",
+    "priority": "high",
+    "summary": "Create a cleaner structure for durable memory, projects, tasks, decisions, and references.",
+    "nextAction": "Finish the initial folder structure and make Mission Control read from it.",
+    "updatedAt": "2026-03-16T09:50:00+11:00",
+    "notesPath": "second-brain/projects/second-brain-foundation.md"
+  }
+]

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mission Control</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Jarvis / Mission Control</p>
+        <h1>Operations at a glance</h1>
+      </div>
+      <div class="topbar-actions">
+        <button id="themeToggle" class="ghost">Dark</button>
+        <button id="refreshBtn">Refresh</button>
+      </div>
+    </header>
+
+    <section class="hero grid-4" id="kpis"></section>
+
+    <section class="main-grid">
+      <div class="panel span-8">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Priority</p>
+            <h2>Attention queue</h2>
+          </div>
+          <span class="pill" id="alertCount"></span>
+        </div>
+        <div id="alerts" class="stack"></div>
+      </div>
+
+      <div class="panel span-4">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Quick actions</p>
+            <h2>Fast paths</h2>
+          </div>
+        </div>
+        <div id="actions" class="stack compact"></div>
+      </div>
+
+      <div class="panel span-5">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Live sessions</p>
+            <h2>Agents</h2>
+          </div>
+        </div>
+        <div id="sessions" class="stack"></div>
+      </div>
+
+      <div class="panel span-4">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Channels</p>
+            <h2>Reachability</h2>
+          </div>
+        </div>
+        <div id="channels" class="stack"></div>
+      </div>
+
+      <div class="panel span-3">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Infrastructure</p>
+            <h2>Nodes</h2>
+          </div>
+        </div>
+        <div id="nodes" class="stack"></div>
+      </div>
+
+      <div class="panel span-12">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Projects</p>
+            <h2>Work in motion</h2>
+          </div>
+        </div>
+        <div id="projects" class="project-grid"></div>
+      </div>
+
+      <div class="panel span-6">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Tasks</p>
+            <h2>Next actions</h2>
+          </div>
+        </div>
+        <div id="tasks" class="stack"></div>
+      </div>
+
+      <div class="panel span-6">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Automation</p>
+            <h2>Cron & checks</h2>
+          </div>
+        </div>
+        <div id="automations" class="stack"></div>
+      </div>
+
+      <div class="panel span-6">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Activity</p>
+            <h2>Recent events</h2>
+          </div>
+        </div>
+        <div id="activity" class="stack"></div>
+      </div>
+    </section>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>

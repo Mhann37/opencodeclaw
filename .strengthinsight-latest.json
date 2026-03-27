@@ -1,0 +1,4672 @@
+{
+  "exportVersion": "2.0",
+  "generatedAt": "2026-03-23T20:16:57.854Z",
+  "app": "StrengthInsight",
+  "unitPreference": "kg",
+  "summary": {
+    "totalWorkouts": 45,
+    "totalVolumeKg": 270736.6,
+    "dateRange": {
+      "start": "2025-01-02",
+      "end": "2026-03-24"
+    },
+    "lastWorkoutLabel": "24 Mar"
+  },
+  "workouts": [
+    {
+      "date": "2026-03-24",
+      "exercises": [
+        {
+          "name": "Bench Press - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 42.5
+            },
+            {
+              "reps": 8,
+              "weightKg": 42.5
+            },
+            {
+              "reps": 8,
+              "weightKg": 42.5
+            },
+            {
+              "reps": 8,
+              "weightKg": 42.5
+            }
+          ]
+        },
+        {
+          "name": "Row - Single Arm - L - Dumbbell",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 21.2
+            },
+            {
+              "reps": 8,
+              "weightKg": 21.2
+            },
+            {
+              "reps": 8,
+              "weightKg": 21.2
+            }
+          ]
+        },
+        {
+          "name": "Row - Single Arm - R - Dumbbell",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 21.2
+            },
+            {
+              "reps": 8,
+              "weightKg": 21.2
+            },
+            {
+              "reps": 8,
+              "weightKg": 21.2
+            }
+          ]
+        },
+        {
+          "name": "Bench Fly - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 6,
+              "weightKg": 40
+            },
+            {
+              "reps": 6,
+              "weightKg": 40
+            }
+          ]
+        },
+        {
+          "name": "Landmine Deadlift",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 10,
+              "weightKg": 70
+            },
+            {
+              "reps": 10,
+              "weightKg": 70
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 5222.6
+    },
+    {
+      "date": "2026-03-23",
+      "exercises": [
+        {
+          "name": "Bench Press - Barbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 6,
+              "weightKg": 70
+            }
+          ]
+        },
+        {
+          "name": "Overhead Press - Seated - Dumbbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 2820
+    },
+    {
+      "date": "2026-03-20",
+      "exercises": [
+        {
+          "name": "Bench Press - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 45
+            },
+            {
+              "reps": 10,
+              "weightKg": 45
+            },
+            {
+              "reps": 10,
+              "weightKg": 45
+            },
+            {
+              "reps": 12,
+              "weightKg": 45
+            }
+          ]
+        },
+        {
+          "name": "Goblet Squat - Dumbbell",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 22.5
+            },
+            {
+              "reps": 8,
+              "weightKg": 22.5
+            }
+          ]
+        },
+        {
+          "name": "Bicep Curl - Barbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 35
+            },
+            {
+              "reps": 8,
+              "weightKg": 35
+            },
+            {
+              "reps": 8,
+              "weightKg": 35
+            }
+          ]
+        },
+        {
+          "name": "Triceps Pulldown - Rope",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 20
+            },
+            {
+              "reps": 10,
+              "weightKg": 20
+            },
+            {
+              "reps": 10,
+              "weightKg": 20
+            }
+          ]
+        },
+        {
+          "name": "Upright Row - Barbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 35
+            },
+            {
+              "reps": 8,
+              "weightKg": 35
+            },
+            {
+              "reps": 8,
+              "weightKg": 35
+            }
+          ]
+        },
+        {
+          "name": "Overhead Press - Seated - Dumbbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 6,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 5190
+    },
+    {
+      "date": "2026-03-18",
+      "exercises": [
+        {
+          "name": "Seated Row",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 50
+            },
+            {
+              "reps": 8,
+              "weightKg": 50
+            },
+            {
+              "reps": 8,
+              "weightKg": 50
+            },
+            {
+              "reps": 10,
+              "weightKg": 50
+            }
+          ]
+        },
+        {
+          "name": "Bench Fly - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 30
+            },
+            {
+              "reps": 10,
+              "weightKg": 30
+            },
+            {
+              "reps": 10,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Row - Single Arm - L - Dumbbell",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 12,
+              "weightKg": 15
+            },
+            {
+              "reps": 12,
+              "weightKg": 15
+            },
+            {
+              "reps": 12,
+              "weightKg": 15
+            }
+          ]
+        },
+        {
+          "name": "Row - Single Arm - R - Dumbbell",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 12,
+              "weightKg": 15
+            },
+            {
+              "reps": 12,
+              "weightKg": 15
+            },
+            {
+              "reps": 12,
+              "weightKg": 15
+            }
+          ]
+        },
+        {
+          "name": "Overhead Press - Seated - Dumbbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 10,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 4460
+    },
+    {
+      "date": "2026-03-16",
+      "exercises": [
+        {
+          "name": "Bench Press - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 12,
+              "weightKg": 40
+            },
+            {
+              "reps": 12,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            }
+          ]
+        },
+        {
+          "name": "Bicep Curl - Barbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Lateral Shoulder Raise - Dumbbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 20
+            },
+            {
+              "reps": 8,
+              "weightKg": 20
+            },
+            {
+              "reps": 6,
+              "weightKg": 20
+            }
+          ]
+        },
+        {
+          "name": "Bench Press - Incline - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 3720
+    },
+    {
+      "date": "2026-03-12",
+      "exercises": [
+        {
+          "name": "Bench Press - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 12,
+              "weightKg": 40
+            },
+            {
+              "reps": 12,
+              "weightKg": 40
+            },
+            {
+              "reps": 12,
+              "weightKg": 40
+            },
+            {
+              "reps": 12,
+              "weightKg": 40
+            }
+          ]
+        },
+        {
+          "name": "Overhead Press - Seated - Dumbbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Landmine Press - Standing - L - Barbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            }
+          ]
+        },
+        {
+          "name": "Landmine Press - Standing - R - Barbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            }
+          ]
+        },
+        {
+          "name": "Landmine Deadlift",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 60
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 5160
+    },
+    {
+      "date": "2026-03-10",
+      "exercises": [
+        {
+          "name": "Lat Pull Down - Front",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 50
+            },
+            {
+              "reps": 10,
+              "weightKg": 50
+            },
+            {
+              "reps": 10,
+              "weightKg": 50
+            }
+          ]
+        },
+        {
+          "name": "Bench Press - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 40
+            },
+            {
+              "reps": 10,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 2840
+    },
+    {
+      "date": "2026-03-09",
+      "exercises": [
+        {
+          "name": "Bench Press - Barbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            }
+          ]
+        },
+        {
+          "name": "Concentration Curl - L - Dumbbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 15
+            },
+            {
+              "reps": 6,
+              "weightKg": 15
+            },
+            {
+              "reps": 6,
+              "weightKg": 15
+            }
+          ]
+        },
+        {
+          "name": "Concentration Curl - R - Dumbbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 15
+            },
+            {
+              "reps": 6,
+              "weightKg": 15
+            },
+            {
+              "reps": 6,
+              "weightKg": 15
+            }
+          ]
+        },
+        {
+          "name": "Bench Fly - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Goblet Squat - Dumbbell",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 20
+            },
+            {
+              "reps": 10,
+              "weightKg": 20
+            },
+            {
+              "reps": 8,
+              "weightKg": 20
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 4120
+    },
+    {
+      "date": "2026-03-06",
+      "exercises": [
+        {
+          "name": "Overhead Press - Seated - Dumbbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 12,
+              "weightKg": 20
+            },
+            {
+              "reps": 15,
+              "weightKg": 20
+            },
+            {
+              "reps": 15,
+              "weightKg": 20
+            }
+          ]
+        },
+        {
+          "name": "Bench Press - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 15,
+              "weightKg": 30
+            },
+            {
+              "reps": 20,
+              "weightKg": 30
+            },
+            {
+              "reps": 15,
+              "weightKg": 30
+            },
+            {
+              "reps": 20,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Bench Fly - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 30
+            },
+            {
+              "reps": 10,
+              "weightKg": 30
+            },
+            {
+              "reps": 10,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Goblet Squat - Dumbbell",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 30
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 4140
+    },
+    {
+      "date": "2026-03-04",
+      "exercises": [
+        {
+          "name": "Bench Press - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 15,
+              "weightKg": 30
+            },
+            {
+              "reps": 18,
+              "weightKg": 30
+            },
+            {
+              "reps": 15,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Lat Pull Down - Front",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 50
+            },
+            {
+              "reps": 10,
+              "weightKg": 50
+            },
+            {
+              "reps": 10,
+              "weightKg": 50
+            }
+          ]
+        },
+        {
+          "name": "Bench Press - Incline - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 30
+            },
+            {
+              "reps": 10,
+              "weightKg": 30
+            },
+            {
+              "reps": 10,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Landmine Deadlift",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 60
+            },
+            {
+              "reps": 10,
+              "weightKg": 60
+            },
+            {
+              "reps": 10,
+              "weightKg": 60
+            },
+            {
+              "reps": 10,
+              "weightKg": 60
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 6240
+    },
+    {
+      "date": "2026-03-02",
+      "exercises": [
+        {
+          "name": "Bench Press - Incline - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 45
+            },
+            {
+              "reps": 10,
+              "weightKg": 45
+            },
+            {
+              "reps": 10,
+              "weightKg": 45
+            },
+            {
+              "reps": 8,
+              "weightKg": 45
+            }
+          ]
+        },
+        {
+          "name": "Bench Fly - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Landmine Press - Standing - R - Barbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 12,
+              "weightKg": 40
+            },
+            {
+              "reps": 12,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 4
+            }
+          ]
+        },
+        {
+          "name": "Landmine Press - Standing - L - Barbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 12,
+              "weightKg": 40
+            },
+            {
+              "reps": 12,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            }
+          ]
+        },
+        {
+          "name": "Landmine Deadlift",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 70
+            },
+            {
+              "reps": 10,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 7222
+    },
+    {
+      "date": "2026-02-28",
+      "exercises": [
+        {
+          "name": "Lat Pull Down - Front",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 6,
+              "weightKg": 65
+            },
+            {
+              "reps": 6,
+              "weightKg": 65
+            },
+            {
+              "reps": 6,
+              "weightKg": 65
+            },
+            {
+              "reps": 6,
+              "weightKg": 65
+            }
+          ]
+        },
+        {
+          "name": "Bicep Curl - Dumbbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 6,
+              "weightKg": 35
+            },
+            {
+              "reps": 6,
+              "weightKg": 35
+            },
+            {
+              "reps": 6,
+              "weightKg": 35
+            },
+            {
+              "reps": 4,
+              "weightKg": 35
+            }
+          ]
+        },
+        {
+          "name": "Hammer Curl - Dumbbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 6,
+              "weightKg": 35
+            },
+            {
+              "reps": 7,
+              "weightKg": 30
+            },
+            {
+              "reps": 7,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Lateral Shoulder Raise - Dumbbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 6,
+              "weightKg": 20
+            },
+            {
+              "reps": 8,
+              "weightKg": 20
+            },
+            {
+              "reps": 8,
+              "weightKg": 20
+            }
+          ]
+        },
+        {
+          "name": "Row - Single Arm - L - Dumbbell",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 15,
+              "weightKg": 20
+            },
+            {
+              "reps": 15,
+              "weightKg": 20
+            }
+          ]
+        },
+        {
+          "name": "Row - Single Arm - R - Dumbbell",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 15,
+              "weightKg": 20
+            },
+            {
+              "reps": 15,
+              "weightKg": 20
+            }
+          ]
+        },
+        {
+          "name": "Bench Press - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 12,
+              "weightKg": 40
+            },
+            {
+              "reps": 12,
+              "weightKg": 40
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 5560
+    },
+    {
+      "date": "2026-02-27",
+      "exercises": [
+        {
+          "name": "Bench Press - Barbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            }
+          ]
+        },
+        {
+          "name": "Triceps Pulldown - Rope",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 25
+            },
+            {
+              "reps": 10,
+              "weightKg": 25
+            },
+            {
+              "reps": 10,
+              "weightKg": 25
+            }
+          ]
+        },
+        {
+          "name": "Bench Fly - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 35
+            },
+            {
+              "reps": 8,
+              "weightKg": 35
+            },
+            {
+              "reps": 8,
+              "weightKg": 35
+            }
+          ]
+        },
+        {
+          "name": "Landmine Press - Standing - L - Barbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 45
+            },
+            {
+              "reps": 6,
+              "weightKg": 45
+            },
+            {
+              "reps": 6,
+              "weightKg": 45
+            }
+          ]
+        },
+        {
+          "name": "Landmine Press - Standing - R - Barbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 45
+            },
+            {
+              "reps": 6,
+              "weightKg": 45
+            },
+            {
+              "reps": 6,
+              "weightKg": 45
+            }
+          ]
+        },
+        {
+          "name": "Landmine Deadlift",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 70
+            },
+            {
+              "reps": 10,
+              "weightKg": 70
+            },
+            {
+              "reps": 10,
+              "weightKg": 70
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 8290
+    },
+    {
+      "date": "2026-02-25",
+      "exercises": [
+        {
+          "name": "Lat Pull Down - Front",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 60
+            },
+            {
+              "reps": 8,
+              "weightKg": 60
+            },
+            {
+              "reps": 8,
+              "weightKg": 60
+            }
+          ]
+        },
+        {
+          "name": "Bench Press - Barbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 2,
+              "weightKg": 92.5
+            },
+            {
+              "reps": 4,
+              "weightKg": 80
+            },
+            {
+              "reps": 4,
+              "weightKg": 80
+            },
+            {
+              "reps": 4,
+              "weightKg": 80
+            }
+          ]
+        },
+        {
+          "name": "Overhead Press - Seated - Dumbbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 6,
+              "weightKg": 35
+            },
+            {
+              "reps": 6,
+              "weightKg": 32.5
+            },
+            {
+              "reps": 6,
+              "weightKg": 32.5
+            }
+          ]
+        },
+        {
+          "name": "Hammer Curl - Dumbbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 6,
+              "weightKg": 35
+            },
+            {
+              "reps": 6,
+              "weightKg": 35
+            },
+            {
+              "reps": 6,
+              "weightKg": 35
+            }
+          ]
+        },
+        {
+          "name": "Goblet Squat - Dumbbell",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 35
+            },
+            {
+              "reps": 8,
+              "weightKg": 35
+            },
+            {
+              "reps": 8,
+              "weightKg": 35
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 4655
+    },
+    {
+      "date": "2026-02-24",
+      "exercises": [
+        {
+          "name": "Lateral Shoulder Raise - Dumbbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 15
+            },
+            {
+              "reps": 8,
+              "weightKg": 15
+            },
+            {
+              "reps": 8,
+              "weightKg": 15
+            }
+          ]
+        },
+        {
+          "name": "Split Squat - L - Dumbbell",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Split Squat - R - Dumbbell",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Concentration Curl - L - Dumbbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 6,
+              "weightKg": 17.5
+            },
+            {
+              "reps": 4,
+              "weightKg": 17.5
+            },
+            {
+              "reps": 4,
+              "weightKg": 17.5
+            },
+            {
+              "reps": 4,
+              "weightKg": 17.5
+            }
+          ]
+        },
+        {
+          "name": "Concentration Curl - R - Dumbbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 6,
+              "weightKg": 17.5
+            },
+            {
+              "reps": 4,
+              "weightKg": 17.5
+            },
+            {
+              "reps": 4,
+              "weightKg": 17.5
+            },
+            {
+              "reps": 4,
+              "weightKg": 17.5
+            }
+          ]
+        },
+        {
+          "name": "Back Squat - Barbell",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 10,
+              "weightKg": 70
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 4390
+    },
+    {
+      "date": "2026-02-23",
+      "exercises": [
+        {
+          "name": "Bench Fly - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 42.5
+            },
+            {
+              "reps": 8,
+              "weightKg": 42.5
+            },
+            {
+              "reps": 8,
+              "weightKg": 42.5
+            }
+          ]
+        },
+        {
+          "name": "Hammer Curl - Dumbbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 35
+            },
+            {
+              "reps": 6,
+              "weightKg": 35
+            },
+            {
+              "reps": 5,
+              "weightKg": 35
+            }
+          ]
+        },
+        {
+          "name": "Triceps Pulldown - Rope",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 6,
+              "weightKg": 30
+            },
+            {
+              "reps": 4,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Landmine Press - Standing - L - Barbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 45
+            },
+            {
+              "reps": 6,
+              "weightKg": 45
+            },
+            {
+              "reps": 0,
+              "weightKg": 0
+            }
+          ]
+        },
+        {
+          "name": "Landmine Deadlift",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 75
+            },
+            {
+              "reps": 8,
+              "weightKg": 75
+            },
+            {
+              "reps": 12,
+              "weightKg": 75
+            },
+            {
+              "reps": 8,
+              "weightKg": 75
+            }
+          ]
+        },
+        {
+          "name": "Landmine Press - Standing - R - Barbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 45
+            },
+            {
+              "reps": 6,
+              "weightKg": 45
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 6185
+    },
+    {
+      "date": "2026-02-22",
+      "exercises": [
+        {
+          "name": "Bench Press - Barbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 75
+            },
+            {
+              "reps": 6,
+              "weightKg": 75
+            },
+            {
+              "reps": 4,
+              "weightKg": 80
+            },
+            {
+              "reps": 4,
+              "weightKg": 80
+            }
+          ]
+        },
+        {
+          "name": "Lat Pull Down - Front",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 60
+            },
+            {
+              "reps": 8,
+              "weightKg": 60
+            },
+            {
+              "reps": 8,
+              "weightKg": 60
+            }
+          ]
+        },
+        {
+          "name": "Seated Row",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 60
+            },
+            {
+              "reps": 8,
+              "weightKg": 60
+            },
+            {
+              "reps": 8,
+              "weightKg": 60
+            }
+          ]
+        },
+        {
+          "name": "Overhead Press - Seated - Dumbbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 7,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Concentration Curl - L - Dumbbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 6,
+              "weightKg": 15
+            },
+            {
+              "reps": 6,
+              "weightKg": 15
+            },
+            {
+              "reps": 6,
+              "weightKg": 15
+            }
+          ]
+        },
+        {
+          "name": "Concentration Curl - R - Dumbbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 6,
+              "weightKg": 15
+            },
+            {
+              "reps": 6,
+              "weightKg": 15
+            },
+            {
+              "reps": 6,
+              "weightKg": 15
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 5800
+    },
+    {
+      "date": "2026-02-21",
+      "exercises": [
+        {
+          "name": "Bench Press - Incline - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 40
+            },
+            {
+              "reps": 10,
+              "weightKg": 45
+            },
+            {
+              "reps": 10,
+              "weightKg": 45
+            },
+            {
+              "reps": 10,
+              "weightKg": 45
+            }
+          ]
+        },
+        {
+          "name": "Row - Single Arm - L - Dumbbell",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 25
+            },
+            {
+              "reps": 10,
+              "weightKg": 25
+            },
+            {
+              "reps": 8,
+              "weightKg": 25
+            }
+          ]
+        },
+        {
+          "name": "Row - Single Arm - R - Dumbbell",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 25
+            },
+            {
+              "reps": 10,
+              "weightKg": 25
+            },
+            {
+              "reps": 8,
+              "weightKg": 25
+            }
+          ]
+        },
+        {
+          "name": "Bicep Curl - Dumbbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 32.5
+            },
+            {
+              "reps": 8,
+              "weightKg": 32.5
+            },
+            {
+              "reps": 8,
+              "weightKg": 32.5
+            }
+          ]
+        },
+        {
+          "name": "Back Squat - Barbell",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 70
+            },
+            {
+              "reps": 9,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 5820
+    },
+    {
+      "date": "2026-02-20",
+      "exercises": [
+        {
+          "name": "Bench Press - Barbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 6,
+              "weightKg": 85
+            },
+            {
+              "reps": 4,
+              "weightKg": 85
+            },
+            {
+              "reps": 4,
+              "weightKg": 85
+            },
+            {
+              "reps": 8,
+              "weightKg": 65
+            }
+          ]
+        },
+        {
+          "name": "Lat Pull Down - Front",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 60
+            },
+            {
+              "reps": 8,
+              "weightKg": 60
+            },
+            {
+              "reps": 8,
+              "weightKg": 60
+            },
+            {
+              "reps": 7,
+              "weightKg": 60
+            }
+          ]
+        },
+        {
+          "name": "Bench Fly - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            }
+          ]
+        },
+        {
+          "name": "Overhead Press - Seated - Dumbbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 5,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Landmine Press - Standing - L - Barbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            }
+          ]
+        },
+        {
+          "name": "Landmine Press - Standing - R - Barbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            }
+          ]
+        },
+        {
+          "name": "Landmine Deadlift",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 85
+            },
+            {
+              "reps": 8,
+              "weightKg": 85
+            },
+            {
+              "reps": 8,
+              "weightKg": 85
+            },
+            {
+              "reps": 10,
+              "weightKg": 85
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 10090
+    },
+    {
+      "date": "2026-02-18",
+      "exercises": [
+        {
+          "name": "Hammer Curl - Dumbbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 12,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 6,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Split Squat - L - Dumbbell",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 50
+            },
+            {
+              "reps": 8,
+              "weightKg": 50
+            },
+            {
+              "reps": 8,
+              "weightKg": 50
+            }
+          ]
+        },
+        {
+          "name": "Split Squat - R - Dumbbell",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 50
+            },
+            {
+              "reps": 8,
+              "weightKg": 50
+            },
+            {
+              "reps": 8,
+              "weightKg": 50
+            }
+          ]
+        },
+        {
+          "name": "Bench Press - Barbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 15,
+              "weightKg": 60
+            },
+            {
+              "reps": 15,
+              "weightKg": 60
+            },
+            {
+              "reps": 10,
+              "weightKg": 60
+            }
+          ]
+        },
+        {
+          "name": "Front Shoulder Raise - Dumbbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 20
+            },
+            {
+              "reps": 8,
+              "weightKg": 20
+            },
+            {
+              "reps": 7,
+              "weightKg": 20
+            }
+          ]
+        },
+        {
+          "name": "Landmine Deadlift",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 85
+            },
+            {
+              "reps": 8,
+              "weightKg": 85
+            },
+            {
+              "reps": 10,
+              "weightKg": 75
+            },
+            {
+              "reps": 8,
+              "weightKg": 85
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 8830
+    },
+    {
+      "date": "2026-02-17",
+      "exercises": [
+        {
+          "name": "Bench Press - Incline - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 46
+            },
+            {
+              "reps": 8,
+              "weightKg": 46
+            },
+            {
+              "reps": 8,
+              "weightKg": 46
+            },
+            {
+              "reps": 8,
+              "weightKg": 46
+            }
+          ]
+        },
+        {
+          "name": "Seated Row",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 50
+            },
+            {
+              "reps": 10,
+              "weightKg": 50
+            },
+            {
+              "reps": 10,
+              "weightKg": 50
+            }
+          ]
+        },
+        {
+          "name": "Row - Single Arm - L - Dumbbell",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 23
+            },
+            {
+              "reps": 8,
+              "weightKg": 23
+            },
+            {
+              "reps": 8,
+              "weightKg": 23
+            }
+          ]
+        },
+        {
+          "name": "Row - Single Arm - R - Dumbbell",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 23
+            },
+            {
+              "reps": 8,
+              "weightKg": 23
+            },
+            {
+              "reps": 8,
+              "weightKg": 23
+            }
+          ]
+        },
+        {
+          "name": "Deadlift - Dumbbell",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 46
+            },
+            {
+              "reps": 8,
+              "weightKg": 46
+            },
+            {
+              "reps": 8,
+              "weightKg": 46
+            }
+          ]
+        },
+        {
+          "name": "Concentration Curl - L - Dumbbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 15
+            },
+            {
+              "reps": 8,
+              "weightKg": 15
+            },
+            {
+              "reps": 8,
+              "weightKg": 15
+            }
+          ]
+        },
+        {
+          "name": "Concentration Curl - R - Dumbbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 15
+            },
+            {
+              "reps": 8,
+              "weightKg": 15
+            },
+            {
+              "reps": 8,
+              "weightKg": 15
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 5900
+    },
+    {
+      "date": "2026-02-16",
+      "exercises": [
+        {
+          "name": "Bench Press - Barbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 7,
+              "weightKg": 80
+            },
+            {
+              "reps": 5,
+              "weightKg": 80
+            },
+            {
+              "reps": 12,
+              "weightKg": 60
+            },
+            {
+              "reps": 8,
+              "weightKg": 60
+            }
+          ]
+        },
+        {
+          "name": "Bench Fly - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Lat Pull Down - Front",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 55
+            },
+            {
+              "reps": 8,
+              "weightKg": 55
+            },
+            {
+              "reps": 8,
+              "weightKg": 55
+            },
+            {
+              "reps": 8,
+              "weightKg": 55
+            }
+          ]
+        },
+        {
+          "name": "Lateral Shoulder Raise - Dumbbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 20
+            },
+            {
+              "reps": 8,
+              "weightKg": 20
+            },
+            {
+              "reps": 6,
+              "weightKg": 20
+            }
+          ]
+        },
+        {
+          "name": "Overhead Press - Seated - Dumbbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 20
+            },
+            {
+              "reps": 10,
+              "weightKg": 20
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 5650
+    },
+    {
+      "date": "2026-02-15",
+      "exercises": [
+        {
+          "name": "Thruster - Dumbbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 20
+            },
+            {
+              "reps": 10,
+              "weightKg": 20
+            },
+            {
+              "reps": 10,
+              "weightKg": 20
+            }
+          ]
+        },
+        {
+          "name": "Back Squat - Barbell",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 80
+            }
+          ]
+        },
+        {
+          "name": "Hammer Curl - Dumbbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 7,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Triceps Pulldown - Rope",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 6,
+              "weightKg": 30
+            },
+            {
+              "reps": 6,
+              "weightKg": 30
+            },
+            {
+              "reps": 4,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Landmine Deadlift",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 80
+            },
+            {
+              "reps": 8,
+              "weightKg": 80
+            },
+            {
+              "reps": 8,
+              "weightKg": 80
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 6310
+    },
+    {
+      "date": "2026-02-14",
+      "exercises": [
+        {
+          "name": "Bench Press - Barbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 5,
+              "weightKg": 70
+            }
+          ]
+        },
+        {
+          "name": "Lunge - Alternating - Dumbbell",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 20,
+              "weightKg": 40
+            },
+            {
+              "reps": 20,
+              "weightKg": 40
+            }
+          ]
+        },
+        {
+          "name": "Bench Fly - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 30
+            },
+            {
+              "reps": 10,
+              "weightKg": 30
+            },
+            {
+              "reps": 10,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Concentration Curl - L - Dumbbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 15
+            },
+            {
+              "reps": 8,
+              "weightKg": 15
+            },
+            {
+              "reps": 6,
+              "weightKg": 15
+            }
+          ]
+        },
+        {
+          "name": "Concentration Curl - R - Dumbbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 15
+            },
+            {
+              "reps": 8,
+              "weightKg": 15
+            },
+            {
+              "reps": 6,
+              "weightKg": 15
+            }
+          ]
+        },
+        {
+          "name": "Overhead Press - Seated - Dumbbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 6,
+              "weightKg": 30
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 5430
+    },
+    {
+      "date": "2026-02-12",
+      "exercises": [
+        {
+          "name": "Lat Pull Down - Front",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 60
+            },
+            {
+              "reps": 8,
+              "weightKg": 60
+            },
+            {
+              "reps": 8,
+              "weightKg": 60
+            },
+            {
+              "reps": 7,
+              "weightKg": 60
+            }
+          ]
+        },
+        {
+          "name": "Bench Press - Incline - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            }
+          ]
+        },
+        {
+          "name": "Bicep Curl - Dumbbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 6,
+              "weightKg": 30
+            },
+            {
+              "reps": 7,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Hammer Curl - Dumbbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 5,
+              "weightKg": 30
+            },
+            {
+              "reps": 5,
+              "weightKg": 30
+            },
+            {
+              "reps": 6,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Landmine Deadlift",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 65
+            },
+            {
+              "reps": 10,
+              "weightKg": 65
+            },
+            {
+              "reps": 10,
+              "weightKg": 65
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 6400
+    },
+    {
+      "date": "2026-02-11",
+      "exercises": [
+        {
+          "name": "Bench Press - Barbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 5,
+              "weightKg": 80
+            },
+            {
+              "reps": 5,
+              "weightKg": 80
+            },
+            {
+              "reps": 5,
+              "weightKg": 80
+            },
+            {
+              "reps": 5,
+              "weightKg": 80
+            }
+          ]
+        },
+        {
+          "name": "Triceps Pulldown - Rope",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 6,
+              "weightKg": 30
+            },
+            {
+              "reps": 5,
+              "weightKg": 30
+            },
+            {
+              "reps": 5,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Squat - Dumbbell",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            }
+          ]
+        },
+        {
+          "name": "Overhead Press - Seated - Dumbbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 7,
+              "weightKg": 30
+            },
+            {
+              "reps": 6,
+              "weightKg": 30
+            },
+            {
+              "reps": 6,
+              "weightKg": 30
+            },
+            {
+              "reps": 6,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Lateral Shoulder Raise - Dumbbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 6,
+              "weightKg": 20
+            },
+            {
+              "reps": 6,
+              "weightKg": 15
+            },
+            {
+              "reps": 6,
+              "weightKg": 15
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 4330
+    },
+    {
+      "date": "2026-02-09",
+      "exercises": [
+        {
+          "name": "Bench Fly - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Concentration Curl - L - Dumbbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 15
+            },
+            {
+              "reps": 8,
+              "weightKg": 15
+            },
+            {
+              "reps": 7,
+              "weightKg": 15
+            }
+          ]
+        },
+        {
+          "name": "Concentration Curl - R - Dumbbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 15
+            },
+            {
+              "reps": 8,
+              "weightKg": 15
+            },
+            {
+              "reps": 7,
+              "weightKg": 15
+            }
+          ]
+        },
+        {
+          "name": "Hammer Curl - Dumbbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 7,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Lat Pull Down - Front",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 50
+            },
+            {
+              "reps": 10,
+              "weightKg": 50
+            },
+            {
+              "reps": 10,
+              "weightKg": 50
+            }
+          ]
+        },
+        {
+          "name": "Bench Press - Incline - Dumbbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 10,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 5200
+    },
+    {
+      "date": "2026-02-08",
+      "exercises": [
+        {
+          "name": "Bench Press - Incline - Barbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 50
+            },
+            {
+              "reps": 8,
+              "weightKg": 50
+            },
+            {
+              "reps": 7,
+              "weightKg": 50
+            },
+            {
+              "reps": 6,
+              "weightKg": 50
+            }
+          ]
+        },
+        {
+          "name": "Landmine Deadlift",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            }
+          ]
+        },
+        {
+          "name": "T-Bar Row - Barbell",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 60
+            },
+            {
+              "reps": 10,
+              "weightKg": 60
+            },
+            {
+              "reps": 8,
+              "weightKg": 60
+            },
+            {
+              "reps": 8,
+              "weightKg": 60
+            }
+          ]
+        },
+        {
+          "name": "Landmine Press - Standing - R - Barbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            }
+          ]
+        },
+        {
+          "name": "Landmine Press - Standing - L - Barbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 8410
+    },
+    {
+      "date": "2026-02-06",
+      "exercises": [
+        {
+          "name": "Bench Press - Barbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 3,
+              "weightKg": 90
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 6,
+              "weightKg": 70
+            },
+            {
+              "reps": 6,
+              "weightKg": 70
+            }
+          ]
+        },
+        {
+          "name": "Lat Pull Down - Front",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 6,
+              "weightKg": 70
+            },
+            {
+              "reps": 5,
+              "weightKg": 70
+            },
+            {
+              "reps": 12,
+              "weightKg": 50
+            },
+            {
+              "reps": 12,
+              "weightKg": 50
+            }
+          ]
+        },
+        {
+          "name": "Bent Over Row - Barbell",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 12,
+              "weightKg": 30
+            },
+            {
+              "reps": 12,
+              "weightKg": 30
+            },
+            {
+              "reps": 12,
+              "weightKg": 30
+            },
+            {
+              "reps": 6,
+              "weightKg": 50
+            }
+          ]
+        },
+        {
+          "name": "Triceps Pulldown - Rope",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 6,
+              "weightKg": 30
+            },
+            {
+              "reps": 4,
+              "weightKg": 30
+            },
+            {
+              "reps": 4,
+              "weightKg": 30
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 5440
+    },
+    {
+      "date": "2026-02-05",
+      "exercises": [
+        {
+          "name": "Bicep Curl - Barbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 6,
+              "weightKg": 35
+            },
+            {
+              "reps": 6,
+              "weightKg": 35
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Overhead Press - Seated - Barbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 6,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Landmine Deadlift",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 80
+            },
+            {
+              "reps": 10,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 10,
+              "weightKg": 70
+            }
+          ]
+        },
+        {
+          "name": "T-Bar Row - Barbell",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 60
+            },
+            {
+              "reps": 10,
+              "weightKg": 60
+            },
+            {
+              "reps": 8,
+              "weightKg": 60
+            },
+            {
+              "reps": 8,
+              "weightKg": 60
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 6320
+    },
+    {
+      "date": "2026-02-04",
+      "exercises": [
+        {
+          "name": "Bench Press - Barbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 12,
+              "weightKg": 60
+            },
+            {
+              "reps": 12,
+              "weightKg": 60
+            },
+            {
+              "reps": 8,
+              "weightKg": 60
+            },
+            {
+              "reps": 8,
+              "weightKg": 60
+            }
+          ]
+        },
+        {
+          "name": "Lat Pull Down - Front",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 50
+            },
+            {
+              "reps": 10,
+              "weightKg": 50
+            },
+            {
+              "reps": 10,
+              "weightKg": 50
+            },
+            {
+              "reps": 10,
+              "weightKg": 50
+            }
+          ]
+        },
+        {
+          "name": "Seated Row",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 50
+            },
+            {
+              "reps": 8,
+              "weightKg": 50
+            },
+            {
+              "reps": 8,
+              "weightKg": 50
+            },
+            {
+              "reps": 8,
+              "weightKg": 50
+            }
+          ]
+        },
+        {
+          "name": "Triceps Pulldown - Rope",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 4,
+              "weightKg": 30
+            },
+            {
+              "reps": 4,
+              "weightKg": 30
+            },
+            {
+              "reps": 3,
+              "weightKg": 30
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 6330
+    },
+    {
+      "date": "2026-02-02",
+      "exercises": [
+        {
+          "name": "Bench Press - Barbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 7,
+              "weightKg": 70
+            }
+          ]
+        },
+        {
+          "name": "Bicep Curl - Barbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 6,
+              "weightKg": 30
+            },
+            {
+              "reps": 6,
+              "weightKg": 30
+            },
+            {
+              "reps": 6,
+              "weightKg": 30
+            },
+            {
+              "reps": 6,
+              "weightKg": 30
+            },
+            {
+              "reps": 6,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Landmine Press - Standing - L - Barbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            }
+          ]
+        },
+        {
+          "name": "Landmine Press - Standing - R - Barbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            }
+          ]
+        },
+        {
+          "name": "Landmine Deadlift",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 75
+            },
+            {
+              "reps": 8,
+              "weightKg": 75
+            },
+            {
+              "reps": 8,
+              "weightKg": 75
+            },
+            {
+              "reps": 10,
+              "weightKg": 75
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 7540
+    },
+    {
+      "date": "2026-01-31",
+      "exercises": [
+        {
+          "name": "Bench Press - Barbell",
+          "muscleGroup": null,
+          "sets": [
+            {
+              "reps": 12,
+              "weightKg": 65
+            },
+            {
+              "reps": 2,
+              "weightKg": 90
+            },
+            {
+              "reps": 8,
+              "weightKg": 65
+            },
+            {
+              "reps": 6,
+              "weightKg": 65
+            }
+          ]
+        },
+        {
+          "name": "Lat Pull Down - Front",
+          "muscleGroup": null,
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 60
+            },
+            {
+              "reps": 8,
+              "weightKg": 65
+            },
+            {
+              "reps": 8,
+              "weightKg": 65
+            },
+            {
+              "reps": 8,
+              "weightKg": 65
+            }
+          ]
+        },
+        {
+          "name": "Triceps Pulldown - Rope",
+          "muscleGroup": null,
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 25
+            },
+            {
+              "reps": 8,
+              "weightKg": 25
+            },
+            {
+              "reps": 8,
+              "weightKg": 25
+            },
+            {
+              "reps": 6,
+              "weightKg": 25
+            }
+          ]
+        },
+        {
+          "name": "Bench Press - Incline - Barbell",
+          "muscleGroup": null,
+          "sets": [
+            {
+              "reps": 5,
+              "weightKg": 50
+            },
+            {
+              "reps": 8,
+              "weightKg": 50
+            },
+            {
+              "reps": 5,
+              "weightKg": 50
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 5560
+    },
+    {
+      "date": "2026-01-28",
+      "exercises": [
+        {
+          "name": "Landmine Deadlift",
+          "muscleGroup": null,
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 65
+            },
+            {
+              "reps": 10,
+              "weightKg": 65
+            },
+            {
+              "reps": 10,
+              "weightKg": 65
+            },
+            {
+              "reps": 10,
+              "weightKg": 65
+            }
+          ]
+        },
+        {
+          "name": "T-Bar Row - Barbell",
+          "muscleGroup": null,
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 65
+            },
+            {
+              "reps": 8,
+              "weightKg": 65
+            },
+            {
+              "reps": 8,
+              "weightKg": 65
+            }
+          ]
+        },
+        {
+          "name": "Lateral Shoulder Raise - Dumbbell",
+          "muscleGroup": null,
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 10
+            },
+            {
+              "reps": 10,
+              "weightKg": 10
+            },
+            {
+              "reps": 8,
+              "weightKg": 10
+            },
+            {
+              "reps": 6,
+              "weightKg": 10
+            }
+          ]
+        },
+        {
+          "name": "Triceps Pulldown - Rope",
+          "muscleGroup": null,
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 25
+            },
+            {
+              "reps": 8,
+              "weightKg": 25
+            },
+            {
+              "reps": 8,
+              "weightKg": 25
+            }
+          ]
+        },
+        {
+          "name": "Landmine Press - Standing - L - Barbell",
+          "muscleGroup": null,
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 35
+            },
+            {
+              "reps": 8,
+              "weightKg": 35
+            },
+            {
+              "reps": 8,
+              "weightKg": 35
+            }
+          ]
+        },
+        {
+          "name": "Landmine Press - Standing - R - Barbell",
+          "muscleGroup": null,
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 35
+            },
+            {
+              "reps": 8,
+              "weightKg": 35
+            },
+            {
+              "reps": 8,
+              "weightKg": 35
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 6920
+    },
+    {
+      "date": "2026-01-27",
+      "exercises": [
+        {
+          "name": "Lat Pull Down - Front",
+          "muscleGroup": null,
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 60
+            },
+            {
+              "reps": 8,
+              "weightKg": 60
+            },
+            {
+              "reps": 8,
+              "weightKg": 60
+            },
+            {
+              "reps": 7,
+              "weightKg": 60
+            }
+          ]
+        },
+        {
+          "name": "Seated Row",
+          "muscleGroup": null,
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 60
+            },
+            {
+              "reps": 8,
+              "weightKg": 50
+            },
+            {
+              "reps": 8,
+              "weightKg": 50
+            },
+            {
+              "reps": 8,
+              "weightKg": 50
+            }
+          ]
+        },
+        {
+          "name": "Front Plank",
+          "muscleGroup": null,
+          "sets": [
+            {
+              "reps": 1,
+              "weightKg": 0
+            }
+          ]
+        },
+        {
+          "name": "Overhead Press - Seated - Barbell",
+          "muscleGroup": null,
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 10,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Back Squat - Barbell",
+          "muscleGroup": null,
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 60
+            },
+            {
+              "reps": 8,
+              "weightKg": 60
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 5520
+    },
+    {
+      "date": "2026-01-26",
+      "exercises": [
+        {
+          "name": "Bench Press - Barbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 15,
+              "weightKg": 55
+            },
+            {
+              "reps": 12,
+              "weightKg": 55
+            },
+            {
+              "reps": 12,
+              "weightKg": 55
+            },
+            {
+              "reps": 12,
+              "weightKg": 55
+            }
+          ]
+        },
+        {
+          "name": "Bicep Curl - Barbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 6,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Lat Pull Down - Front",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 50
+            },
+            {
+              "reps": 10,
+              "weightKg": 50
+            },
+            {
+              "reps": 10,
+              "weightKg": 50
+            },
+            {
+              "reps": 8,
+              "weightKg": 50
+            }
+          ]
+        },
+        {
+          "name": "Bicep Curl - Cable",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 20
+            },
+            {
+              "reps": 8,
+              "weightKg": 20
+            },
+            {
+              "reps": 5,
+              "weightKg": 20
+            }
+          ]
+        },
+        {
+          "name": "Landmine Deadlift",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 60
+            },
+            {
+              "reps": 10,
+              "weightKg": 60
+            },
+            {
+              "reps": 10,
+              "weightKg": 60
+            },
+            {
+              "reps": 10,
+              "weightKg": 60
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 8325
+    },
+    {
+      "date": "2026-01-24",
+      "exercises": [
+        {
+          "name": "Bench Press - Barbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 6,
+              "weightKg": 70
+            }
+          ]
+        },
+        {
+          "name": "Overhead Press - Seated - Dumbbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 16
+            },
+            {
+              "reps": 8,
+              "weightKg": 16
+            },
+            {
+              "reps": 8,
+              "weightKg": 16
+            },
+            {
+              "reps": 8,
+              "weightKg": 16
+            }
+          ]
+        },
+        {
+          "name": "Lat Pull Down - Front",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 50
+            },
+            {
+              "reps": 10,
+              "weightKg": 50
+            },
+            {
+              "reps": 10,
+              "weightKg": 50
+            },
+            {
+              "reps": 10,
+              "weightKg": 50
+            }
+          ]
+        },
+        {
+          "name": "Landmine Squats",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 60
+            },
+            {
+              "reps": 4,
+              "weightKg": 60
+            }
+          ]
+        },
+        {
+          "name": "Deadlift - Barbell",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 60
+            },
+            {
+              "reps": 8,
+              "weightKg": 60
+            },
+            {
+              "reps": 8,
+              "weightKg": 60
+            }
+          ]
+        },
+        {
+          "name": "Tricep Extension - Standing - Rope - Pulley Machine",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 20
+            },
+            {
+              "reps": 8,
+              "weightKg": 20
+            },
+            {
+              "reps": 12,
+              "weightKg": 20
+            },
+            {
+              "reps": 8,
+              "weightKg": 20
+            }
+          ]
+        },
+        {
+          "name": "Overhead Press - Barbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 20
+            },
+            {
+              "reps": 10,
+              "weightKg": 20
+            },
+            {
+              "reps": 10,
+              "weightKg": 20
+            },
+            {
+              "reps": 8,
+              "weightKg": 20
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 8252
+    },
+    {
+      "date": "2026-01-16",
+      "exercises": [
+        {
+          "name": "Lat Pull Down - Front",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 50
+            },
+            {
+              "reps": 10,
+              "weightKg": 50
+            },
+            {
+              "reps": 10,
+              "weightKg": 50
+            }
+          ]
+        },
+        {
+          "name": "Bench Press - Barbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 6,
+              "weightKg": 70
+            }
+          ]
+        },
+        {
+          "name": "Landmine Press - Standing - L - Barbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 20,
+              "weightKg": 30
+            },
+            {
+              "reps": 12,
+              "weightKg": 30
+            },
+            {
+              "reps": 10,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Landmine Press - Standing - R - Barbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 20,
+              "weightKg": 30
+            },
+            {
+              "reps": 12,
+              "weightKg": 30
+            },
+            {
+              "reps": 10,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "T-Bar Row - Barbell",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 50
+            },
+            {
+              "reps": 10,
+              "weightKg": 50
+            },
+            {
+              "reps": 10,
+              "weightKg": 50
+            }
+          ]
+        },
+        {
+          "name": "Landmine Squats",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 50
+            },
+            {
+              "reps": 8,
+              "weightKg": 50
+            },
+            {
+              "reps": 8,
+              "weightKg": 50
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 8260
+    },
+    {
+      "date": "2026-01-14",
+      "exercises": [
+        {
+          "name": "Bench Press - Barbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 12,
+              "weightKg": 65
+            },
+            {
+              "reps": 8,
+              "weightKg": 65
+            },
+            {
+              "reps": 6,
+              "weightKg": 65
+            },
+            {
+              "reps": 5,
+              "weightKg": 65
+            }
+          ]
+        },
+        {
+          "name": "Seated Row",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 50
+            },
+            {
+              "reps": 8,
+              "weightKg": 50
+            },
+            {
+              "reps": 8,
+              "weightKg": 50
+            }
+          ]
+        },
+        {
+          "name": "Bicep Curl - Barbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 5,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Upright Row - Barbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 4565
+    },
+    {
+      "date": "2026-01-12",
+      "exercises": [
+        {
+          "name": "Bench Press - Barbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 4,
+              "weightKg": 85
+            },
+            {
+              "reps": 5,
+              "weightKg": 80
+            },
+            {
+              "reps": 6,
+              "weightKg": 70
+            },
+            {
+              "reps": 4,
+              "weightKg": 70
+            }
+          ]
+        },
+        {
+          "name": "Lat Pull Down - Front",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 12,
+              "weightKg": 50
+            },
+            {
+              "reps": 12,
+              "weightKg": 50
+            },
+            {
+              "reps": 15,
+              "weightKg": 50
+            },
+            {
+              "reps": 9,
+              "weightKg": 50
+            }
+          ]
+        },
+        {
+          "name": "Triceps Pulldown - Rope",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 25
+            },
+            {
+              "reps": 7,
+              "weightKg": 25
+            },
+            {
+              "reps": 7,
+              "weightKg": 25
+            }
+          ]
+        },
+        {
+          "name": "Landmine Press - Standing - L - Barbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            }
+          ]
+        },
+        {
+          "name": "Landmine Press - Standing - R - Barbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            }
+          ]
+        },
+        {
+          "name": "Deadlift - Barbell",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 12,
+              "weightKg": 60
+            },
+            {
+              "reps": 12,
+              "weightKg": 60
+            },
+            {
+              "reps": 12,
+              "weightKg": 60
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 8630
+    },
+    {
+      "date": "2026-01-11",
+      "exercises": [
+        {
+          "name": "Bench Press - Barbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 6,
+              "weightKg": 70
+            },
+            {
+              "reps": 4,
+              "weightKg": 70
+            }
+          ]
+        },
+        {
+          "name": "Lat Pull Down - Front",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 55
+            },
+            {
+              "reps": 10,
+              "weightKg": 55
+            },
+            {
+              "reps": 8,
+              "weightKg": 55
+            },
+            {
+              "reps": 6,
+              "weightKg": 55
+            }
+          ]
+        },
+        {
+          "name": "Triceps Pulldown - Rope",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 4,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 25
+            },
+            {
+              "reps": 4,
+              "weightKg": 25
+            }
+          ]
+        },
+        {
+          "name": "Landmine Press - Standing - L - Barbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            }
+          ]
+        },
+        {
+          "name": "Landmine Press - Standing - R - Barbell",
+          "muscleGroup": "Shoulders",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 8,
+              "weightKg": 40
+            }
+          ]
+        },
+        {
+          "name": "Deadlift - Barbell",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 12,
+              "weightKg": 60
+            },
+            {
+              "reps": 10,
+              "weightKg": 60
+            },
+            {
+              "reps": 10,
+              "weightKg": 60
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 7950
+    },
+    {
+      "date": "2026-01-08",
+      "exercises": [
+        {
+          "name": "Bench Press - Barbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 8,
+              "weightKg": 70
+            },
+            {
+              "reps": 5,
+              "weightKg": 70
+            },
+            {
+              "reps": 4,
+              "weightKg": 70
+            }
+          ]
+        },
+        {
+          "name": "Lat Pull Down - Front",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 50
+            },
+            {
+              "reps": 10,
+              "weightKg": 50
+            },
+            {
+              "reps": 8,
+              "weightKg": 50
+            }
+          ]
+        },
+        {
+          "name": "Landmine Squats",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 45
+            },
+            {
+              "reps": 8,
+              "weightKg": 45
+            },
+            {
+              "reps": 8,
+              "weightKg": 45
+            },
+            {
+              "reps": 8,
+              "weightKg": 45
+            }
+          ]
+        },
+        {
+          "name": "Deadlift - Barbell",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 45
+            },
+            {
+              "reps": 8,
+              "weightKg": 45
+            },
+            {
+              "reps": 8,
+              "weightKg": 45
+            }
+          ]
+        },
+        {
+          "name": "Bicep Curl - Barbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 20,
+              "weightKg": 20
+            },
+            {
+              "reps": 20,
+              "weightKg": 20
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 6470
+    },
+    {
+      "date": "2026-01-03",
+      "exercises": [
+        {
+          "name": "Lat Pull Down - Front",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 55
+            },
+            {
+              "reps": 10,
+              "weightKg": 55
+            },
+            {
+              "reps": 10,
+              "weightKg": 55
+            },
+            {
+              "reps": 9,
+              "weightKg": 55
+            }
+          ]
+        },
+        {
+          "name": "Seated Row",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 55
+            },
+            {
+              "reps": 8,
+              "weightKg": 55
+            },
+            {
+              "reps": 8,
+              "weightKg": 55
+            }
+          ]
+        },
+        {
+          "name": "Bench Press - Barbell",
+          "muscleGroup": "Chest",
+          "sets": [
+            {
+              "reps": 4,
+              "weightKg": 80
+            },
+            {
+              "reps": 4,
+              "weightKg": 80
+            },
+            {
+              "reps": 2,
+              "weightKg": 80
+            },
+            {
+              "reps": 3,
+              "weightKg": 80
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 4395
+    },
+    {
+      "date": "2026-01-02",
+      "exercises": [
+        {
+          "name": "Bicep Curl - Barbell",
+          "muscleGroup": "Arms",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 8,
+              "weightKg": 30
+            },
+            {
+              "reps": 6,
+              "weightKg": 30
+            }
+          ]
+        },
+        {
+          "name": "Seated Row",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 40
+            },
+            {
+              "reps": 10,
+              "weightKg": 40
+            },
+            {
+              "reps": 10,
+              "weightKg": 40
+            }
+          ]
+        },
+        {
+          "name": "Landmine Squats",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 40
+            },
+            {
+              "reps": 10,
+              "weightKg": 40
+            },
+            {
+              "reps": 10,
+              "weightKg": 40
+            }
+          ]
+        },
+        {
+          "name": "T-Bar Row - Barbell",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 10,
+              "weightKg": 40
+            },
+            {
+              "reps": 10,
+              "weightKg": 50
+            },
+            {
+              "reps": 10,
+              "weightKg": 50
+            }
+          ]
+        },
+        {
+          "name": "Deadlift - Barbell",
+          "muscleGroup": "Legs",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 50
+            },
+            {
+              "reps": 8,
+              "weightKg": 50
+            },
+            {
+              "reps": 8,
+              "weightKg": 50
+            },
+            {
+              "reps": 8,
+              "weightKg": 50
+            }
+          ]
+        },
+        {
+          "name": "Lat Pull Down - Wide Grip Front Pull",
+          "muscleGroup": "Back",
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 60
+            },
+            {
+              "reps": 8,
+              "weightKg": 60
+            },
+            {
+              "reps": 5,
+              "weightKg": 60
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 7480
+    },
+    {
+      "date": "2025-01-02",
+      "exercises": [
+        {
+          "name": "Lat Pull Down - Front",
+          "muscleGroup": null,
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 55
+            },
+            {
+              "reps": 10,
+              "weightKg": 55
+            },
+            {
+              "reps": 10,
+              "weightKg": 55
+            },
+            {
+              "reps": 9,
+              "weightKg": 55
+            }
+          ]
+        },
+        {
+          "name": "Seated Row",
+          "muscleGroup": null,
+          "sets": [
+            {
+              "reps": 8,
+              "weightKg": 55
+            },
+            {
+              "reps": 8,
+              "weightKg": 55
+            },
+            {
+              "reps": 8,
+              "weightKg": 55
+            }
+          ]
+        },
+        {
+          "name": "Bench Press - Barbell",
+          "muscleGroup": null,
+          "sets": [
+            {
+              "reps": 4,
+              "weightKg": 80
+            },
+            {
+              "reps": 4,
+              "weightKg": 80
+            },
+            {
+              "reps": 2,
+              "weightKg": 80
+            },
+            {
+              "reps": 3,
+              "weightKg": 80
+            }
+          ]
+        }
+      ],
+      "totalVolumeKg": 4395
+    }
+  ],
+  "aiPrompt": "You are a strength coach. Use ONLY data in this JSON. 1) Summarize weekly volume trend. 2) Identify muscle imbalances. 3) Call out plateaus. 4) Give 3 focus areas for next 2 weeks."
+}

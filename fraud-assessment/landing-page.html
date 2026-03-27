@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraud Risk Assessment - Real Estate Agents</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f9fafb;
+        }
+
+        /* Header / Hero */
+        header {
+            background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            opacity: 0.95;
+        }
+
+        header .subtitle {
+            font-size: 1em;
+            opacity: 0.8;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* CTA Button */
+        .cta-primary {
+            background: #dc2626;
+            color: white;
+            padding: 16px 40px;
+            font-size: 1.1em;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .cta-primary:hover {
+            background: #b91c1c;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(220, 38, 38, 0.3);
+        }
+
+        /* Content Sections */
+        section {
+            padding: 60px 0;
+            margin: 0 auto;
+        }
+
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 30px;
+            color: #1e3a8a;
+        }
+
+        section p {
+            font-size: 1.05em;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        /* Risk Cards */
+        .risk-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .risk-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            border-left: 5px solid #dc2626;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .risk-card:hover {
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            transform: translateY(-5px);
+        }
+
+        .risk-card h3 {
+            font-size: 1.3em;
+            margin-bottom: 10px;
+            color: #1e3a8a;
+        }
+
+        .risk-card .risk-icon {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .risk-card p {
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .risk-stat {
+            font-size: 0.9em;
+            color: #888;
+            font-style: italic;
+        }
+
+        /* Features List */
+        .features {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            margin: 40px 0;
+        }
+
+        .features h3 {
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            color: #1e3a8a;
+        }
+
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .features li {
+            padding: 12px 0;
+            padding-left: 40px;
+            position: relative;
+            font-size: 1.05em;
+        }
+
+        .features li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #16a34a;
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+
+        /* Testimonial / Stats Section */
+        .stats {
+            background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+            color: white;
+            padding: 60px 20px;
+            margin: 60px 0;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .stats h2 {
+            color: white;
+        }
+
+        .stat-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            font-size: 1em;
+            opacity: 0.9;
+        }
+
+        /* FAQ Section */
+        .faq {
+            margin: 60px 0;
+        }
+
+        .faq-item {
+            background: white;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #1e40af;
+        }
+
+        .faq-item h4 {
+            color: #1e3a8a;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        .faq-item p {
+            color: #666;
+            display: none;
+        }
+
+        .faq-item.open p {
+            display: block;
+        }
+
+        /* Footer */
+        footer {
+            background: #1f2937;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 80px;
+        }
+
+        footer p {
+            opacity: 0.8;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            header p {
+                font-size: 1em;
+            }
+
+            section {
+                padding: 40px 0;
+            }
+
+            section h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>🔐 Is Your Agency at Risk?</h1>
+            <p>Discover your top fraud vulnerabilities in 2 minutes</p>
+            <p class="subtitle">Personalized assessment for real estate agents</p>
+            <a href="https://typeform.com/to/REPLACE_WITH_YOUR_TYPEFORM_ID" class="cta-primary">Start Assessment</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="container">
+            <h2>Why Fraud Prevention Matters</h2>
+            <p>Real estate agents handle millions in transactions annually. One successful fraud attack can cost your agency thousands—or your reputation permanently.</p>
+            <p>Wire fraud, invoice fraud, and account takeover are rampant in the industry. Yet many agencies have no formal prevention protocols.</p>
+            <p><strong>This assessment identifies YOUR agency's vulnerabilities so you can fix them before it's too late.</strong></p>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats">
+            <div class="container">
+                <h2>The Real Cost</h2>
+                <div class="stat-group">
+                    <div class="stat-item">
+                        <div class="stat-number">$12.7M</div>
+                        <div class="stat-label">Annual fraud losses in real estate</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3 in 5</div>
+                        <div class="stat-label">Agencies targeted by wire fraud</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">$47K</div>
+                        <div class="stat-label">Average loss per incident</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Top Risks -->
+        <section class="container">
+            <h2>What We Assess</h2>
+            <div class="risk-cards">
+                <div class="risk-card">
+                    <div class="risk-icon">💰</div>
+                    <h3>Wire Fraud</h3>
+                    <p>Attackers intercept transaction instructions and redirect funds to fraudulent accounts.</p>
+                    <p class="risk-stat">Most common in agencies with large transaction volumes + limited training</p>
+                </div>
+
+                <div class="risk-card">
+                    <div class="risk-icon">📧</div>
+                    <h3>Invoice Fraud</h3>
+                    <p>Compromised email systems send fake invoices to clients, redirecting payments to attacker accounts.</p>
+                    <p class="risk-stat">Affects all agency sizes equally</p>
+                </div>
+
+                <div class="risk-card">
+                    <div class="risk-icon">🔑</div>
+                    <h3>Account Takeover</h3>
+                    <p>Attackers gain access to agent accounts and drain client escrow or falsify transactions.</p>
+                    <p class="risk-stat">Highest risk when staff use weak passwords & no MFA</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works -->
+        <section class="container">
+            <h2>How the Assessment Works</h2>
+            <div class="features">
+                <h3>Quick 2-Minute Quiz</h3>
+                <p>Answer 6 quick questions about your agency:</p>
+                <ul>
+                    <li>Agency size</li>
+                    <li>Monthly transaction volume</li>
+                    <li>Primary focus (rentals, sales, or both)</li>
+                    <li>Team fraud training level</li>
+                    <li>Past fraud incidents</li>
+                    <li>Your email (optional)</li>
+                </ul>
+            </div>
+
+            <div class="features">
+                <h3>Get Your Results</h3>
+                <p>Instant personalized risk report showing:</p>
+                <ul>
+                    <li><strong>Top 3 fraud risks</strong> ranked by severity</li>
+                    <li><strong>Risk level</strong> (HIGH / MEDIUM / LOW)</li>
+                    <li><strong>Why it matters</strong> for your agency type</li>
+                    <li><strong>Next steps</strong> to reduce risk</li>
+                </ul>
+            </div>
+
+            <div class="features">
+                <h3>Take Action</h3>
+                <p>Download the <strong>Real Estate Fraud Prevention Playbook ($299)</strong> for:</p>
+                <ul>
+                    <li>Step-by-step prevention protocols tailored to your agency</li>
+                    <li>Staff training scripts & materials</li>
+                    <li>Ready-to-use checklists & templates</li>
+                    <li>Incident response playbook</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="container">
+            <h2>FAQs</h2>
+            <div class="faq">
+                <div class="faq-item">
+                    <h4>❓ How long does the assessment take?</h4>
+                    <p>About 2 minutes. Just 6 straightforward questions about your agency.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>❓ What will I learn?</h4>
+                    <p>Your personalized top 3 fraud risks based on your agency size, transaction volume, training level, and history. You'll know exactly what to prioritize.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>❓ Is the assessment free?</h4>
+                    <p>Yes. The assessment is completely free. The optional Playbook ($299) is where we go deep into prevention, training, and response protocols.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>❓ What's included in the Playbook?</h4>
+                    <p>Wire fraud prevention, invoice fraud prevention, account takeover prevention, staff training scripts, ready-to-use checklists, and incident response protocols.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>❓ Do I need to enter my email?</h4>
+                    <p>No, it's optional. But we recommend it so we can send you results and fraud prevention tips.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>❓ Who is this for?</h4>
+                    <p>Any real estate agency, from solo agents to brokers managing 50+ staff. The assessment adapts to your size and complexity.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="container" style="text-align: center; padding: 80px 0;">
+            <h2>Ready to Assess Your Risk?</h2>
+            <p style="margin-bottom: 30px;">Get your personalized fraud risk report in 2 minutes.</p>
+            <a href="https://typeform.com/to/REPLACE_WITH_YOUR_TYPEFORM_ID" class="cta-primary">Start Free Assessment</a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Real Estate Fraud Prevention. All rights reserved.</p>
+            <p style="margin-top: 15px; font-size: 0.9em;">
+                <a href="#" style="color: #93c5fd; text-decoration: none;">Privacy Policy</a> | 
+                <a href="#" style="color: #93c5fd; text-decoration: none;">Terms of Service</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // FAQ Toggle
+        const faqItems = document.querySelectorAll('.faq-item h4');
+        faqItems.forEach(item => {
+            item.addEventListener('click', () => {
+                item.parentElement.classList.toggle('open');
+            });
+        });
+    </script>
+</body>
+</html>

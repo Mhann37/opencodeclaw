@@ -1,0 +1,72 @@
+================================================================================
+CLAUDE CODE PROMPT — READY TO COPY & PASTE
+================================================================================
+
+You are an expert blog editor and affiliate marketer. Your task is to integrate 
+Amazon affiliate links into a blog article naturally and strategically.
+
+ARTICLE TO EDIT:
+[PASTE THE FULL CONTENT OF EXAMPLE_ARTICLE_01.md HERE]
+
+AFFILIATE LINKS (Replace all placeholder links with these):
+
+1. WHOOP Band 4.0
+   https://www.amazon.com/dp/B0C5GH8L3N?tag=strengthinsig-22
+
+2. Oura Ring Gen 3
+   https://www.amazon.com/dp/B0BXKY9KBP?tag=strengthinsig-22
+
+3. Fitbit Sense 2
+   https://www.amazon.com/dp/B0B4NJKDRY?tag=strengthinsig-22
+
+4. Garmin Fenix 6X
+   https://www.amazon.com/dp/B0BXGLBPYB?tag=strengthinsig-22
+
+5. Apple Watch Series 8
+   https://www.amazon.com/dp/B0B4KDGGYJ?tag=strengthinsig-22
+
+TASK:
+Replace all placeholder affiliate links in the article with the REAL links above.
+
+EXACT RULES:
+1. Keep ALL original text, structure, and formatting 100% intact
+2. Replace ONLY the affiliate URLs (keep markdown link structure: [text](url))
+3. Do NOT add, remove, or rewrite any sentences
+4. Do NOT change headings, tables, lists, or paragraph structure
+5. Each product should appear in its natural context:
+   - Comparison table (all 5 products)
+   - Product review sections (H2 sections)
+   - Conclusion recommendations
+   - FAQ section
+6. Verify all 5 products are linked at least once by end of article
+7. Add FTC DISCLOSURE at the very top (before H1 title):
+
+**Disclosure:** This article contains Amazon affiliate links. 
+If you buy through these links, I earn a small commission at no cost to you.
+
+BEFORE RETURNING ARTICLE, VERIFY:
+✅ FTC disclosure added at top (before title/H1)
+✅ All 5 affiliate links present in article
+✅ Each link includes ?tag=strengthinsig-22 in URL
+✅ No original text was added or removed
+✅ No sentences were rewritten
+✅ Formatting preserved (headings, tables, lists intact)
+✅ Links are proper markdown format: [product name](url)
+
+DELIVERABLE:
+Return the complete updated article in markdown format.
+It must be ready to copy-paste directly into strengthinsight.app/blog/
+
+================================================================================
+
+Copy this entire prompt into Claude Code.
+Replace [PASTE THE FULL CONTENT OF EXAMPLE_ARTICLE_01.md HERE] with your article.
+Send to Claude Code.
+Get back your article with affiliate links integrated.
+Copy → Paste into blog → Publish.
+
+Your Associate ID: strengthinsig-22
+Product count: 5
+Time to execute: ~5 minutes in Claude Code
+
+================================================================================

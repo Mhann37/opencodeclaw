@@ -1,0 +1,20 @@
+[
+  {
+    "id": "next-mission-control-1",
+    "title": "Improve project/task visibility in Mission Control",
+    "status": "in-progress",
+    "priority": "high",
+    "projectId": "mission-control-ui",
+    "owner": "Jarvis",
+    "updatedAt": "2026-03-16T09:50:00+11:00"
+  },
+  {
+    "id": "next-setlistart-1",
+    "title": "Turn SetlistArt growth goal into a concrete research brief",
+    "status": "backlog",
+    "priority": "high",
+    "projectId": "setlistart-growth-research",
+    "owner": "Jarvis",
+    "updatedAt": "2026-03-16T09:50:00+11:00"
+  }
+]

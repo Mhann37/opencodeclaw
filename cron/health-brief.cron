@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Health Brief Delivery — 07:30 AEDT Daily
+# Install: crontab -e
+# Add line: 30 7 * * * /var/lib/openclaw/.openclaw/workspace/cron/health-brief.cron
+
+export TELEGRAM_BOT_TOKEN="${TELEGRAM_BOT_TOKEN}"
+export TELEGRAM_CHAT_ID="8593559681"
+
+# Find latest strength export (your upload or cached version)
+LATEST_STRENGTH=$(find /var/lib/openclaw/.openclaw/media/inbound \
+  /var/lib/openclaw/.openclaw/workspace/research \
+  -name "*strengthinsight*" -type f 2>/dev/null | sort -r | head -1)
+
+if [ -z "$LATEST_STRENGTH" ]; then
+  echo "No StrengthInsight data found" | \
+    curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+    -H "Content-Type: application/json" \
+    -d "{\"chat_id\":\"$TELEGRAM_CHAT_ID\",\"text\":\"❌ Health brief failed — no StrengthInsight data\"}"
+  exit 1
+fi
+
+# Run generator
+node /var/lib/openclaw/.openclaw/workspace/scripts/health-brief-generator.js \
+  --strength-path "$LATEST_STRENGTH"
+
+echo "✅ Health brief sent"

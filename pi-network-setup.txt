@@ -1,0 +1,56 @@
+Pi / OpenClaw Setup Notes
+==========================
+
+Last updated: 2026-03-15 (Australia/Sydney)
+
+Current network layout
+----------------------
+- Raspberry Pi host is connected to the secured guest Wi-Fi network.
+- Phone and PC remain on the usual/main Wi-Fi network.
+- Administration access to the Pi is working over Tailscale.
+- OpenClaw dashboard access is working successfully after the network move.
+
+What changed
+------------
+- The Pi was moved off the usual Wi-Fi onto the guest Wi-Fi network for better separation/isolation.
+- This changed the Pi's local LAN IP address.
+- Direct reliance on the old local IP should be considered obsolete.
+
+Current access method
+---------------------
+Preferred management path:
+- Use Tailscale to reach the Pi.
+- Use Tailscale SSH / normal SSH over the Tailscale address as needed.
+- Use the OpenClaw dashboard successfully via the working post-move connection method.
+
+Status summary
+--------------
+- Pi on guest Wi-Fi: OK
+- PC on normal Wi-Fi: OK
+- Phone on normal Wi-Fi: OK
+- Tailscale connectivity: OK
+- SSH access over Tailscale: OK
+- OpenClaw dashboard access: OK
+- Telegram/OpenClaw operation: expected OK
+
+Notes / implications
+--------------------
+- The guest Wi-Fi setup provides better separation from the main network.
+- Even though the Pi is on a different network, management is still reliable because Tailscale remains available.
+- If local direct access is ever needed, one fallback is to temporarily join the PC to the same guest Wi-Fi.
+- If something breaks later, first verify that the Pi is still online in Tailscale.
+
+Recommended default approach going forward
+-----------------------------------------
+- Treat the Tailscale address / MagicDNS path as the primary way to reach the Pi.
+- Treat the old main-network local IP as non-authoritative.
+- Avoid depending on local network discovery for management.
+
+Quick recovery checklist
+------------------------
+If access breaks in future:
+1. Check whether the Pi is online in Tailscale.
+2. Try SSH over Tailscale.
+3. Check whether the guest Wi-Fi still has internet access.
+4. If needed, temporarily connect the PC to guest Wi-Fi for local troubleshooting.
+5. Use physical access to the Pi as the final fallback.

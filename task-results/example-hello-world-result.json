@@ -1,0 +1,14 @@
+{
+  "status": "warning",
+  "id": "example-hello-world",
+  "filepath": "/var/lib/openclaw/.openclaw/workspace/generated/example-hello-world/generated.js",
+  "docsPath": "/var/lib/openclaw/.openclaw/workspace/generated/example-hello-world/README.md",
+  "validation": {
+    "valid": false,
+    "errors": [
+      "/var/lib/openclaw/.openclaw/workspace/generated/example-hello-world/generated.js:1\nHere's the code to print \"Hello from Autonomous Coding Team\" in Node.js:\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\nSyntaxError: Invalid or unexpected token\n    at wrapSafe (node:internal/modules/cjs/loader:1637:18)\n    at checkSyntax (node:internal/main/check_syntax:78:3)\n\nNode.js v22.22.1\n"
+    ]
+  },
+  "logPath": "/var/lib/openclaw/.openclaw/workspace/generated/example-hello-world/generation.log",
+  "timestamp": "2026-03-27T10:23:41.915Z"
+}

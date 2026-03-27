@@ -1,0 +1,23 @@
+[
+  {
+    "name": "anthropic/claude-haiku-4-5",
+    "provider": "anthropic",
+    "cost_score": 1,
+    "power_score": 40,
+    "capabilities": ["chat", "summary", "quick-response", "general"]
+  },
+  {
+    "name": "anthropic/claude-opus-4-6",
+    "provider": "anthropic",
+    "cost_score": 8,
+    "power_score": 95,
+    "capabilities": ["reasoning", "analysis", "orchestration", "code", "long-form"]
+  },
+  {
+    "name": "openai-codex/gpt-5.4",
+    "provider": "openai-codex",
+    "cost_score": 7,
+    "power_score": 90,
+    "capabilities": ["code", "debugging", "refactor", "technical"]
+  }
+]

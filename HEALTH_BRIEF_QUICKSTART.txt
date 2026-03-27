@@ -1,0 +1,102 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  💪 HEALTH BRIEF SYSTEM — QUICK START
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STATUS: ✅ READY TO USE
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. TEST IT NOW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  cd ~/.openclaw/workspace
+  node scripts/health-brief-generator.js --test
+
+Expected output:
+  💪 **Daily Health Brief** — [DATE]
+  **TRAINING**
+  • Volume: 31,763kg (-17.3% vs 2 weeks ago)
+  • ⚠️ Imbalances: Chest: 74 sets (36%)
+  **FOCUS — Next 2 Weeks**
+  1️⃣ Address muscle imbalance...
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. SET UP ENVIRONMENT VARIABLES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Add to ~/.bashrc or ~/.zshrc:
+
+  export TELEGRAM_BOT_TOKEN="YOUR_TOKEN_HERE"
+  export TELEGRAM_CHAT_ID="8593559681"
+
+Then reload:
+  source ~/.bashrc
+
+Verify:
+  echo $TELEGRAM_BOT_TOKEN
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. INSTALL CRON JOB (Daily at 07:30 AEDT)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  crontab -e
+
+Add this line:
+  30 7 * * * /var/lib/openclaw/.openclaw/workspace/cron/health-brief.cron >> /var/log/health-brief.log 2>&1
+
+Test immediately:
+  bash ~/.openclaw/workspace/cron/health-brief.cron
+
+Check logs:
+  tail -f /var/log/health-brief.log
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. HOW TO USE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+OPTION A: Upload StrengthInsight JSON to Telegram
+  → System detects upload → generates brief → sends immediately
+
+OPTION B: Manual trigger
+  node ~/.openclaw/workspace/scripts/health-brief-generator.js
+
+OPTION C: Daily cron (automatic at 07:30)
+  → Runs automatically every morning
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. DATA SOURCES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHOOP Data:
+  File: ~/.openclaw/workspace/.whoop-cache.json
+  Format: JSON array with recovery_score, hrv, sleep_duration_seconds
+
+StrengthInsight Data:
+  Auto-finds latest:
+    • ~/.openclaw/media/inbound/ (uploads)
+    • ~/research/ (manual imports)
+  Or specify manually:
+    node scripts/health-brief-generator.js \
+      --strength-path /path/to/export.json
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. TROUBLESHOOTING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Brief not sending?
+  → Check environment variables: echo $TELEGRAM_BOT_TOKEN
+  → Check logs: tail -f /var/log/health-brief.log
+
+Data not loading?
+  → Verify StrengthInsight file exists:
+    find ~/research -name "*strength*.json" | head -1
+  → Verify WHOOP cache:
+    cat ~/.openclaw/workspace/.whoop-cache.json
+
+Files corrupted?
+  → Clean and rebuild:
+    rm -f ~/.openclaw/workspace/.whoop-cache.json
+    # Then re-upload StrengthInsight JSON
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NEXT: See HEALTH_BRIEF_SETUP.md for detailed docs
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

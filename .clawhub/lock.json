@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "skills": {
+    "model-router-premium": {
+      "version": "0.1.1",
+      "installedAt": 1773789530340
+    },
+    "automation-workflows": {
+      "version": "0.1.0",
+      "installedAt": 1774585788541
+    }
+  }
+}

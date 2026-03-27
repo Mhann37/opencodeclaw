@@ -1,0 +1,23 @@
+[
+  {
+    "id": "mission-control-ui",
+    "title": "Mission Control UI",
+    "status": "in-progress",
+    "summary": "Minimal dark dashboard for multi-device visibility on top of the Pi-hosted OpenClaw setup.",
+    "updatedAt": "2026-03-16T09:28:00+11:00"
+  },
+  {
+    "id": "setlistart-growth-research",
+    "title": "SetlistArt growth research",
+    "status": "backlog",
+    "summary": "Review Google search landscape, potential product/site changes, and practical marketing strategy.",
+    "updatedAt": "2026-03-16T07:00:00+11:00"
+  },
+  {
+    "id": "gateway-pi-stability",
+    "title": "Gateway / Pi stability review",
+    "status": "in-progress",
+    "summary": "Tighten operational visibility around sessions, channel health, and node/connectivity status.",
+    "updatedAt": "2026-03-16T09:10:00+11:00"
+  }
+]

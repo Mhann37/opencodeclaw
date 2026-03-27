@@ -1,0 +1,457 @@
+[2026-03-23 08:16:26] Health brief generation started
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[HEALTH-BRIEF] Starting analysis...
+
+[WHOOP] Fetching data (attempt 1/3)...
+[WHOOP] ✗ Attempt 1 failed: getaddrinfo EAI_AGAIN api.ourwhoop.com
+[WHOOP] Retrying in 5s...
+[WHOOP] Fetching data (attempt 2/3)...
+[WHOOP] ✗ Attempt 2 failed: getaddrinfo EAI_AGAIN api.ourwhoop.com
+[WHOOP] Retrying in 5s...
+[WHOOP] Fetching data (attempt 3/3)...
+[WHOOP] ✗ Attempt 3 failed: getaddrinfo EAI_AGAIN api.ourwhoop.com
+[WHOOP] All retries exhausted. Checking cache...
+[WHOOP] ✓ Using cached data from /var/lib/openclaw/.openclaw/workspace/.whoop-cache.json
+[STRENGTH] ✓ Loaded 44 workouts
+[ANALYSIS] Computing trends...
+[ANALYSIS] ✓ Complete
+
+[OUTPUT] ✓ Brief written to /var/lib/openclaw/.openclaw/workspace/daily-health-brief.md
+
+# Daily Health Brief — Monday 23 March 2026
+
+*Generated 08:16 am AEDT*
+
+## 💚 Recovery Analysis (7-Day Trend)
+
+- **Average Recovery:** 72% (✓ optimal)
+- **Trend:** improving ↑
+- **HRV (avg):** 48.8ms (baseline: ~44ms)
+
+## 😴 Sleep Analysis (7-Day Trend)
+
+- **Average:** 8.1h/night
+- **Consistency:** 91% (✓ stable)
+- **Sleep Debt:** 0h accumulated
+
+## 💪 Strength Performance (14-Day Snapshot)
+
+- **Avg Session Volume:** 6,733kg
+- **Total 14-Day Volume:** 94,262kg
+- **Muscle Group Balance:**
+  - Chest: 18%
+  - Back: 23%
+  - Legs: 18%
+  - Shoulders: 11%
+  - Arms: 30%
+
+**Plateaus Detected:**
+- Bicep Curl - Barbell: 30kg (2+ weeks stalled)
+- Landmine Press - Standing - L - Barbell: 40kg (2+ weeks stalled)
+- Landmine Press - Standing - R - Barbell: 40kg (2+ weeks stalled)
+
+## 🎯 Coaching Recommendations
+
+**💪 Strength**
+Bicep Curl - Barbell plateu for 2 weeks @ 30kg. Try higher reps (3×8-10) or paused reps.
+
+**⚡ Volume**
+Volume down 57%. Check equipment, rest adequacy, or planned deload?
+
+## 📍 Today's Focus
+
+- [ ] Check dumbbell sleeve repair status
+- [ ] Session priority: Legs (if equipment ready) or upper-body balance
+- [ ] Hydration & protein post-workout
+- [ ] Target 8+ hours sleep tonight
+
+[2026-03-23 08:16:38] ✓ Brief generated successfully
+Sending brief to Telegram...
+[telegram] autoSelectFamily=true (default-node22)
+[telegram] dnsResultOrder=ipv4first (default-node22)
+✅ Sent via Telegram. Message ID: 1683
+[2026-03-23 08:16:46] ✓ Brief sent to Telegram (message tool)
+[2026-03-24 07:18:55] Health brief generation started
+[2026-03-24 07:18:55] Refreshing StrengthInsight cache...
+[2026-03-24 07:18:55] ✓ Cache refreshed: strengthinsight-ai-export_2025-01-02_to_2026-03-24---4ac58f00-42c2-4a9d-bcc4-ae177bf0640b.json
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[HEALTH-BRIEF] Starting analysis...
+
+[WHOOP] Fetching data (attempt 1/3)...
+[WHOOP] ✗ Attempt 1 failed: getaddrinfo EAI_AGAIN api.ourwhoop.com
+[WHOOP] Retrying in 5s...
+[WHOOP] Fetching data (attempt 2/3)...
+[WHOOP] ✗ Attempt 2 failed: getaddrinfo EAI_AGAIN api.ourwhoop.com
+[WHOOP] Retrying in 5s...
+[WHOOP] Fetching data (attempt 3/3)...
+[WHOOP] ✗ Attempt 3 failed: getaddrinfo EAI_AGAIN api.ourwhoop.com
+[WHOOP] All retries exhausted. Checking cache...
+[WHOOP] ✓ Using cached data from /var/lib/openclaw/.openclaw/workspace/.whoop-cache.json
+[STRENGTH] Checking cached copy...
+[STRENGTH] ✓ Loaded 45 workouts from cache
+[ANALYSIS] Computing trends...
+[ANALYSIS] ✓ Complete
+
+[OUTPUT] ✓ Brief written to /var/lib/openclaw/.openclaw/workspace/daily-health-brief.md
+
+# Daily Health Brief — Tuesday 24 March 2026
+
+*Generated 07:19 am AEDT*
+
+## 💚 Recovery Analysis (7-Day Trend)
+
+- **Average Recovery:** 72% (✓ optimal)
+- **Trend:** improving ↑
+- **HRV (avg):** 48.8ms (baseline: ~44ms)
+
+## 😴 Sleep Analysis (7-Day Trend)
+
+- **Average:** 8.1h/night
+- **Consistency:** 91% (✓ stable)
+- **Sleep Debt:** 0h accumulated
+
+## 💪 Strength Performance (14-Day Snapshot)
+
+- **Avg Session Volume:** 6,733kg
+- **Total 14-Day Volume:** 94,262kg
+- **Muscle Group Balance:**
+  - Chest: 18%
+  - Back: 23%
+  - Legs: 18%
+  - Shoulders: 11%
+  - Arms: 30%
+
+**Plateaus Detected:**
+- Bicep Curl - Barbell: 30kg (2+ weeks stalled)
+- Landmine Press - Standing - L - Barbell: 40kg (2+ weeks stalled)
+- Landmine Press - Standing - R - Barbell: 40kg (2+ weeks stalled)
+
+## 🎯 Coaching Recommendations
+
+**💪 Strength**
+Bicep Curl - Barbell plateu for 2 weeks @ 30kg. Try higher reps (3×8-10) or paused reps.
+
+**⚡ Volume**
+Volume down 57%. Check equipment, rest adequacy, or planned deload?
+
+## 📍 Today's Focus
+
+- [ ] Check dumbbell sleeve repair status
+- [ ] Session priority: Legs (if equipment ready) or upper-body balance
+- [ ] Hydration & protein post-workout
+- [ ] Target 8+ hours sleep tonight
+
+[2026-03-24 07:19:05] ✓ Brief generated successfully
+Sending brief to Telegram...
+[telegram] autoSelectFamily=true (default-node22)
+[telegram] dnsResultOrder=ipv4first (default-node22)
+✅ Sent via Telegram. Message ID: 1715
+[2026-03-24 07:19:13] ✓ Brief sent to Telegram (message tool)
+[2026-03-24 07:30:01] Health brief generation started
+[2026-03-24 07:30:01] Refreshing StrengthInsight cache...
+[2026-03-24 07:30:01] ✓ Cache refreshed: strengthinsight-ai-export_2025-01-02_to_2026-03-24---4ac58f00-42c2-4a9d-bcc4-ae177bf0640b.json
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[HEALTH-BRIEF] Starting analysis...
+
+[WHOOP] Fetching data (attempt 1/3)...
+[WHOOP] ✗ Attempt 1 failed: getaddrinfo EAI_AGAIN api.ourwhoop.com
+[WHOOP] Retrying in 5s...
+[WHOOP] Fetching data (attempt 2/3)...
+[WHOOP] ✗ Attempt 2 failed: getaddrinfo EAI_AGAIN api.ourwhoop.com
+[WHOOP] Retrying in 5s...
+[WHOOP] Fetching data (attempt 3/3)...
+[WHOOP] ✗ Attempt 3 failed: getaddrinfo EAI_AGAIN api.ourwhoop.com
+[WHOOP] All retries exhausted. Checking cache...
+[WHOOP] ✓ Using cached data from /var/lib/openclaw/.openclaw/workspace/.whoop-cache.json
+[STRENGTH] Checking cached copy...
+[STRENGTH] ✓ Loaded 45 workouts from cache
+[ANALYSIS] Computing trends...
+[ANALYSIS] ✓ Complete
+
+[OUTPUT] ✓ Brief written to /var/lib/openclaw/.openclaw/workspace/daily-health-brief.md
+
+# Daily Health Brief — Tuesday 24 March 2026
+
+*Generated 07:30 am AEDT*
+
+## 💚 Recovery Analysis (7-Day Trend)
+
+- **Average Recovery:** 72% (✓ optimal)
+- **Trend:** improving ↑
+- **HRV (avg):** 48.8ms (baseline: ~44ms)
+
+## 😴 Sleep Analysis (7-Day Trend)
+
+- **Average:** 8.1h/night
+- **Consistency:** 91% (✓ stable)
+- **Sleep Debt:** 0h accumulated
+
+## 💪 Strength Performance (14-Day Snapshot)
+
+- **Avg Session Volume:** 6,733kg
+- **Total 14-Day Volume:** 94,262kg
+- **Muscle Group Balance:**
+  - Chest: 18%
+  - Back: 23%
+  - Legs: 18%
+  - Shoulders: 11%
+  - Arms: 30%
+
+**Plateaus Detected:**
+- Bicep Curl - Barbell: 30kg (2+ weeks stalled)
+- Landmine Press - Standing - L - Barbell: 40kg (2+ weeks stalled)
+- Landmine Press - Standing - R - Barbell: 40kg (2+ weeks stalled)
+
+## 🎯 Coaching Recommendations
+
+**💪 Strength**
+Bicep Curl - Barbell plateu for 2 weeks @ 30kg. Try higher reps (3×8-10) or paused reps.
+
+**⚡ Volume**
+Volume down 57%. Check equipment, rest adequacy, or planned deload?
+
+## 📍 Today's Focus
+
+- [ ] Check dumbbell sleeve repair status
+- [ ] Session priority: Legs (if equipment ready) or upper-body balance
+- [ ] Hydration & protein post-workout
+- [ ] Target 8+ hours sleep tonight
+
+[2026-03-24 07:30:11] ✓ Brief generated successfully
+Sending brief to Telegram...
+/var/lib/openclaw/.openclaw/workspace/scripts/health-brief-cron.sh: line 40: openclaw: command not found
+[2026-03-25 07:30:01] Health brief generation started
+[2026-03-25 07:30:01] Refreshing StrengthInsight cache...
+[2026-03-25 07:30:01] ✓ Cache refreshed: strengthinsight-ai-export_2025-01-02_to_2026-03-24---4ac58f00-42c2-4a9d-bcc4-ae177bf0640b.json
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[HEALTH-BRIEF] Starting analysis...
+
+[WHOOP] Fetching data (attempt 1/3)...
+[WHOOP] ✗ Attempt 1 failed: getaddrinfo EAI_AGAIN api.ourwhoop.com
+[WHOOP] Retrying in 5s...
+[WHOOP] Fetching data (attempt 2/3)...
+[WHOOP] ✗ Attempt 2 failed: getaddrinfo EAI_AGAIN api.ourwhoop.com
+[WHOOP] Retrying in 5s...
+[WHOOP] Fetching data (attempt 3/3)...
+[WHOOP] ✗ Attempt 3 failed: getaddrinfo EAI_AGAIN api.ourwhoop.com
+[WHOOP] All retries exhausted. Checking cache...
+[WHOOP] ✓ Using cached data from /var/lib/openclaw/.openclaw/workspace/.whoop-cache.json
+[STRENGTH] Checking cached copy...
+[STRENGTH] ✓ Loaded 45 workouts from cache
+[ANALYSIS] Computing trends...
+[ANALYSIS] ✓ Complete
+
+[OUTPUT] ✓ Brief written to /var/lib/openclaw/.openclaw/workspace/daily-health-brief.md
+
+# Daily Health Brief — Wednesday 25 March 2026
+
+*Generated 07:30 am AEDT*
+
+## 💚 Recovery Analysis (7-Day Trend)
+
+- **Average Recovery:** 72% (✓ optimal)
+- **Trend:** improving ↑
+- **HRV (avg):** 48.8ms (baseline: ~44ms)
+
+## 😴 Sleep Analysis (7-Day Trend)
+
+- **Average:** 8.1h/night
+- **Consistency:** 91% (✓ stable)
+- **Sleep Debt:** 0h accumulated
+
+## 💪 Strength Performance (14-Day Snapshot)
+
+- **Avg Session Volume:** 6,733kg
+- **Total 14-Day Volume:** 94,262kg
+- **Muscle Group Balance:**
+  - Chest: 18%
+  - Back: 23%
+  - Legs: 18%
+  - Shoulders: 11%
+  - Arms: 30%
+
+**Plateaus Detected:**
+- Bicep Curl - Barbell: 30kg (2+ weeks stalled)
+- Landmine Press - Standing - L - Barbell: 40kg (2+ weeks stalled)
+- Landmine Press - Standing - R - Barbell: 40kg (2+ weeks stalled)
+
+## 🎯 Coaching Recommendations
+
+**💪 Strength**
+Bicep Curl - Barbell plateu for 2 weeks @ 30kg. Try higher reps (3×8-10) or paused reps.
+
+**⚡ Volume**
+Volume down 57%. Check equipment, rest adequacy, or planned deload?
+
+## 📍 Today's Focus
+
+- [ ] Check dumbbell sleeve repair status
+- [ ] Session priority: Legs (if equipment ready) or upper-body balance
+- [ ] Hydration & protein post-workout
+- [ ] Target 8+ hours sleep tonight
+
+[2026-03-25 07:30:11] ✓ Brief generated successfully
+Sending brief to Telegram...
+/var/lib/openclaw/.openclaw/workspace/scripts/health-brief-cron.sh: line 40: openclaw: command not found
+[2026-03-26 07:30:01] Health brief generation started
+[2026-03-26 07:30:01] Refreshing StrengthInsight cache...
+[2026-03-26 07:30:01] ✓ Cache refreshed: strengthinsight-ai-export_2025-01-02_to_2026-03-24---4ac58f00-42c2-4a9d-bcc4-ae177bf0640b.json
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+[HEALTH-BRIEF] Starting analysis...
+
+[WHOOP] Fetching data (attempt 1/3)...
+[WHOOP] ✗ Attempt 1 failed: getaddrinfo EAI_AGAIN api.ourwhoop.com
+[WHOOP] Retrying in 5s...
+[WHOOP] Fetching data (attempt 2/3)...
+[WHOOP] ✗ Attempt 2 failed: getaddrinfo EAI_AGAIN api.ourwhoop.com
+[WHOOP] Retrying in 5s...
+[WHOOP] Fetching data (attempt 3/3)...
+[WHOOP] ✗ Attempt 3 failed: getaddrinfo EAI_AGAIN api.ourwhoop.com
+[WHOOP] All retries exhausted. Checking cache...
+[WHOOP] ✓ Using cached data from /var/lib/openclaw/.openclaw/workspace/.whoop-cache.json
+[STRENGTH] Checking cached copy...
+[STRENGTH] ✓ Loaded 45 workouts from cache
+[ANALYSIS] Computing trends...
+[ANALYSIS] ✓ Complete
+
+[OUTPUT] ✓ Brief written to /var/lib/openclaw/.openclaw/workspace/daily-health-brief.md
+
+# Daily Health Brief — Thursday 26 March 2026
+
+*Generated 07:30 am AEDT*
+
+## 💚 Recovery Analysis (7-Day Trend)
+
+- **Average Recovery:** 72% (✓ optimal)
+- **Trend:** improving ↑
+- **HRV (avg):** 48.8ms (baseline: ~44ms)
+
+## 😴 Sleep Analysis (7-Day Trend)
+
+- **Average:** 8.1h/night
+- **Consistency:** 91% (✓ stable)
+- **Sleep Debt:** 0h accumulated
+
+## 💪 Strength Performance (14-Day Snapshot)
+
+- **Avg Session Volume:** 6,733kg
+- **Total 14-Day Volume:** 94,262kg
+- **Muscle Group Balance:**
+  - Chest: 18%
+  - Back: 23%
+  - Legs: 18%
+  - Shoulders: 11%
+  - Arms: 30%
+
+**Plateaus Detected:**
+- Bicep Curl - Barbell: 30kg (2+ weeks stalled)
+- Landmine Press - Standing - L - Barbell: 40kg (2+ weeks stalled)
+- Landmine Press - Standing - R - Barbell: 40kg (2+ weeks stalled)
+
+## 🎯 Coaching Recommendations
+
+**💪 Strength**
+Bicep Curl - Barbell plateu for 2 weeks @ 30kg. Try higher reps (3×8-10) or paused reps.
+
+**⚡ Volume**
+Volume down 57%. Check equipment, rest adequacy, or planned deload?
+
+## 📍 Today's Focus
+
+- [ ] Check dumbbell sleeve repair status
+- [ ] Session priority: Legs (if equipment ready) or upper-body balance
+- [ ] Hydration & protein post-workout
+- [ ] Target 8+ hours sleep tonight
+
+[2026-03-26 07:30:12] ✓ Brief generated successfully
+Sending brief to Telegram...
+/var/lib/openclaw/.openclaw/workspace/scripts/health-brief-cron.sh: line 40: openclaw: command not found
+[26/03/2026, 08:58:00 am] [HEALTH-BRIEF] Starting analysis...
+
+[26/03/2026, 08:58:00 am] [WHOOP] Fetching data (attempt 1/3)...
+[26/03/2026, 08:58:00 am] [WHOOP] ⚠ No WHOOP token configured. Skipping API call.
+[26/03/2026, 08:58:00 am] [WHOOP] ✗ Attempt 1 failed: No WHOOP_API_TOKEN
+[26/03/2026, 08:58:05 am] [WHOOP] Fetching data (attempt 2/3)...
+[26/03/2026, 08:58:05 am] [WHOOP] ⚠ No WHOOP token configured. Skipping API call.
+[26/03/2026, 08:58:05 am] [WHOOP] ✗ Attempt 2 failed: No WHOOP_API_TOKEN
+[26/03/2026, 08:58:10 am] [WHOOP] Fetching data (attempt 3/3)...
+[26/03/2026, 08:58:10 am] [WHOOP] ⚠ No WHOOP token configured. Skipping API call.
+[26/03/2026, 08:58:10 am] [WHOOP] ✗ Attempt 3 failed: No WHOOP_API_TOKEN
+[26/03/2026, 08:58:10 am] [WHOOP] All retries exhausted. Checking cache...
+[26/03/2026, 08:58:10 am] [WHOOP] ✓ Using cached data from /var/lib/openclaw/.openclaw/workspace/.whoop-cache.json
+[26/03/2026, 08:58:10 am] [STRENGTH] ✓ Loaded 46 workouts from strengthinsight-ai-export_2025-01-02_to_2026-03-26...
+[26/03/2026, 08:58:10 am] [OUTPUT] ✓ Brief written to /var/lib/openclaw/.openclaw/workspace/daily-health-brief.md
+[26/03/2026, 08:58:10 am] [HEALTH-BRIEF] Analysis complete.
+
+[26/03/2026, 09:00:39 am] [HEALTH-BRIEF] Starting analysis...
+
+[26/03/2026, 09:00:39 am] [WHOOP] Fetching data (attempt 1/3)...
+[26/03/2026, 09:00:39 am] [WHOOP] ⚠ No WHOOP token configured. Skipping API call.
+[26/03/2026, 09:00:39 am] [WHOOP] ✗ Attempt 1 failed: No WHOOP_API_TOKEN
+[2026-03-27 07:30:01] === Health Brief Generation Started ===
+[2026-03-27 07:30:01] Executing generator...
+[2026-03-27 07:30:01] Generator completed successfully
+[2026-03-27 07:30:01] Brief saved to /var/lib/openclaw/.openclaw/workspace/daily-health-brief.md
+[2026-03-27 07:30:01] Sending to Telegram...
+[2026-03-27 07:30:01] WARNING: openclaw command not found, skipping Telegram send
+[2026-03-27 07:30:01] === Health Brief Generation Completed Successfully ===
+[2026-03-27 08:04:27] === Health Brief Generation Started ===
+[2026-03-27 08:04:27] ✓ Generator completed successfully
+[2026-03-27 08:04:27] ✓ Brief saved to /var/lib/openclaw/.openclaw/workspace/daily-health-brief.md
+[2026-03-27 08:04:27] Attempting Telegram delivery...
+❌ TELEGRAM_BOT_TOKEN not set
+[2026-03-27 08:04:27] ⚠ Telegram delivery failed (brief still generated to file)
+[2026-03-27 08:04:27] === Health Brief Generation Completed Successfully ===
+[2026-03-27 08:37:46] === Health Brief Generation Started ===
+[2026-03-27 08:37:46] ✓ Generator completed successfully
+[2026-03-27 08:37:46] ✓ Brief saved to /var/lib/openclaw/.openclaw/workspace/daily-health-brief.md
+[2026-03-27 08:37:46] Attempting Telegram delivery...
+❌ Send failed: fetch failed
+[2026-03-27 08:37:46] ⚠ Telegram delivery failed (brief still generated to file)
+[2026-03-27 08:37:46] === Health Brief Generation Completed Successfully ===
+[2026-03-27 08:38:01] === Health Brief Generation Started ===
+[2026-03-27 08:38:01] ✓ Generator completed successfully
+[2026-03-27 08:38:01] ✓ Brief saved to /var/lib/openclaw/.openclaw/workspace/daily-health-brief.md
+[2026-03-27 08:38:01] Attempting Telegram delivery...
+/var/lib/openclaw/.openclaw/workspace/scripts/health-brief-telegram-send.sh: line 28: jq: command not found
+❌ Telegram error: {"ok":false,"error_code":400,"description":"Bad Request: message text is empty"}
+[2026-03-27 08:38:02] ⚠ Telegram delivery failed (brief still generated to file)
+[2026-03-27 08:38:02] === Health Brief Generation Completed Successfully ===
+[2026-03-27 08:38:07] === Health Brief Generation Started ===
+[2026-03-27 08:38:07] ✓ Generator completed successfully
+[2026-03-27 08:38:07] ✓ Brief saved to /var/lib/openclaw/.openclaw/workspace/daily-health-brief.md
+[2026-03-27 08:38:07] Attempting Telegram delivery...
+❌ Telegram error: {"ok":false,"error_code":400,"description":"Bad Request: can't parse entities: Unsupported start tag \"7h):\" at byte offset 1531"}
+[2026-03-27 08:38:08] ⚠ Telegram delivery failed (brief still generated to file)
+[2026-03-27 08:38:08] === Health Brief Generation Completed Successfully ===
+[2026-03-27 08:38:14] === Health Brief Generation Started ===
+[2026-03-27 08:38:14] ✓ Generator completed successfully
+[2026-03-27 08:38:14] ✓ Brief saved to /var/lib/openclaw/.openclaw/workspace/daily-health-brief.md
+[2026-03-27 08:38:14] Attempting Telegram delivery...
+✓ Telegram delivery successful
+[2026-03-27 08:38:15] ✓ Telegram delivery successful
+[2026-03-27 08:38:15] === Health Brief Generation Completed Successfully ===
+[2026-03-27 15:59:12] === Health Brief Generation Started ===
+[2026-03-27 15:59:12] ✓ Generator completed successfully
+[2026-03-27 15:59:12] ✓ Brief saved to /var/lib/openclaw/.openclaw/workspace/daily-health-brief.md
+[2026-03-27 15:59:12] Attempting Telegram delivery...
+✓ Telegram delivery successful
+[2026-03-27 15:59:13] ✓ Telegram delivery successful
+[2026-03-27 15:59:13] === Health Brief Generation Completed Successfully ===
+[2026-03-27 16:06:39] === Health Brief Generation Started ===
+[2026-03-27 16:06:41] ✗ Generator failed
+[2026-03-27 16:06:41] [HEALTH-BRIEF] Starting analysis...
+
+[WHOOP] Fetching live data via whoop-cli...
+[WHOOP] ✗ Failed: Unexpected token 'd', "[dotenv@17."... is not valid JSON
+[WHOOP] Attempting trends (7-day avg)...
+[WHOOP] ✗ Trends failed: Unexpected token 'd', "[dotenv@17."... is not valid JSON
+
+[ERROR] Could not fetch WHOOP data
+[2026-03-27 16:07:01] === Health Brief Generation Started ===
+[2026-03-27 16:07:01] ✓ Generator completed successfully
+[2026-03-27 16:07:01] ✓ Brief saved to /var/lib/openclaw/.openclaw/workspace/daily-health-brief.md
+[2026-03-27 16:07:01] Attempting Telegram delivery...
+✓ Telegram delivery successful
+[2026-03-27 16:07:02] ✓ Telegram delivery successful
+[2026-03-27 16:07:02] === Health Brief Generation Completed Successfully ===
